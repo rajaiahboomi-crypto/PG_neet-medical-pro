@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PG NEET Medical Pro</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-weight/6.4.0/css/all.min.css">
     <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="NEET Pro">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="NEET Pro">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .option-card { transition: all 0.2s ease; }
         .progress-ring__circle { transition: stroke-dashoffset 0.35s; transform: rotate(-90deg); transform-origin: 50% 50%; }
@@ -20,18 +20,21 @@
         
         <div id="dashboard-view" class="space-y-8">
             <div class="text-center space-y-2">
-                <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl text-3xl mb-2">🩺</div>
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl text-3xl mb-2">导</div>
                 <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight">PG NEET Medical Pro</h1>
                 <p class="text-gray-500 text-sm max-w-md mx-auto">Compile a completely randomized high-yield board review simulation from past year question papers.</p>
             </div>
 
             <div class="space-y-3">
                 <label class="block text-xs font-bold uppercase tracking-wider text-gray-400">Select Subject Focus</label>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    <button onclick="setFocus('All')" id="focus-All" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-blue-600 bg-blue-50 text-blue-700">All Subjects</button>
-                    <button onclick="setFocus('Anatomy')" id="focus-Anatomy" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Anatomy</button>
-                    <button onclick="setFocus('Biochemistry')" id="focus-Biochemistry" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Biochemistry</button>
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="setFocus('All')" id="focus-All" class="focus-btn col-span-2 py-3 px-4 rounded-xl border-2 text-sm font-bold border-blue-600 bg-blue-50 text-blue-700">All Subjects Mix</button>
                     <button onclick="setFocus('Pathology')" id="focus-Pathology" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Pathology</button>
+                    <button onclick="setFocus('Pharmacology')" id="focus-Pharmacology" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Pharmacology</button>
+                    <button onclick="setFocus('Anatomy')" id="focus-Anatomy" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Anatomy</button>
+                    <button onclick="setFocus('Physiology')" id="focus-Physiology" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Physiology</button>
+                    <button onclick="setFocus('Biochemistry')" id="focus-Biochemistry" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Biochemistry</button>
+                    <button onclick="setFocus('PSM & Biostatistics')" id="focus-PSM-Biostatistics" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">PSM & Biostatistics</button>
                 </div>
             </div>
 
@@ -56,7 +59,7 @@
                     <span id="current-q-num">1</span> / <span id="total-q-num">10</span>
                 </div>
                 <div id="subject-tag" class="px-3 py-1 bg-gray-100 text-gray-600 text-xs font-bold uppercase tracking-wider rounded-md">
-                    ANATOMY
+                    SUBJECT
                 </div>
                 <div class="text-sm font-bold text-green-600">
                     Score: <span id="live-score">0</span>
