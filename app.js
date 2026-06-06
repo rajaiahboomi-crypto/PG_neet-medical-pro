@@ -383,7 +383,7 @@ const questionDatabase = [
         questionText: "Which antimicrobial agent should be strictly avoided in a chronic asthmatic patient managed on active daily theophylline therapy?",
         options: ["Erythromycin", "Amoxicillin", "Cefotaxime", "Cotrimoxazole"],
         correctAnswer: 0,
-        explanation: "Macrolide antibiotics like erythromycin strongly inhibit CYP1A2, driving toxic accumulations of theophylline."
+        explanation: "Macrolide antibiotics like erythromycin strongly delete clearance channels by inhibiting CYP1A2, driving toxic updates."
     },
     {
         subject: "Pharmacology",
@@ -423,7 +423,7 @@ const questionDatabase = [
     {
         subject: "Pharmacology",
         questionText: "Pegloticase is indicated for the treatment of which clinical condition?",
-        options: ["Ankylosing spondylosis", "Reactive限制性关节炎", "Chronic tophaceous gout", "Refractory Rheumatoid arthritis"],
+        options: ["Ankylosing spondylosis", "Reactive arthritis", "Chronic tophaceous gout", "Refractory Rheumatoid arthritis"],
         correctAnswer: 2,
         explanation: "Pegloticase is a pegylated recombinant uricase enzyme that metabolizes plasma uric acid directly into allantoin for chronic gout."
     },
@@ -584,7 +584,7 @@ const questionDatabase = [
     {
         subject: "Microbiology",
         questionText: "Which dimorphic fungal infection is typically acquired via direct traumatic inoculation from vegetation or rose thorns?",
-        options: ["Sporothrix", "Blastomycosis", "Coccidioides", "Paracoccidioides"],
+        options: ["Sporothrix", "Blastomycosis", "Cocciodiodes", "Paracoccidioides"],
         correctAnswer: 0,
         explanation: "Sporotrichosis ('rose gardener's disease') follows cutaneous traumatic inoculation of Sporothrix schenckii conidia."
     },
@@ -797,6 +797,202 @@ const questionDatabase = [
         options: ["Transference", "Countertransference", "Dissociation", "Preoccupation"],
         correctAnswer: 1,
         explanation: "In psychoanalytic theory, countertransference occurs when the clinician projects their own unresolved conflicts or psychological reactions onto the client."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A highly specific pathognomonic feature of acute cell injury seen on microscopic inspection of affected tissues is the formation of:",
+        options: ["Fatty change vacuoles", "Plasma membrane blebbing lines", "Mitochondrial amorphous densities", "Nuclear chromatin clumping grids"],
+        correctAnswer: 2,
+        explanation: "Irreversible cell damage is specifically distinguished from reversible damage by the development of dense, amorphous calcium-rich deposits inside the mitochondrial matrix."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which of the following cellular structures plays the absolute primary role in executing targeted program cell death (Apoptosis) pathways?",
+        options: ["Lysosomes", "Mitochondria", "Golgi apparatus complex", "Rough endoplasmic reticulum"],
+        correctAnswer: 1,
+        explanation: "The intrinsic apoptotic pathway is governed entirely by the leakage of Cytochrome C out of the mitochondrial intermembrane space into the cellular cytoplasm."
+    },
+    {
+        subject: "Pathology",
+        questionText: "On an autopsy evaluation of a brain infarcted region, which classic histological type of tissue necrosis is characteristically observed?",
+        options: ["Coagulative necrosis", "Liquefactive necrosis", "Caseous necrosis layout", "Fat saponification necrosis"],
+        correctAnswer: 1,
+        explanation: "Ischemic hypoxic incidents within the central nervous system trigger liquefactive necrosis due to autolytic enzymatic dissolution mechanics."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The deposition of crystalline calcium salts inside dead, degenerated, or dying somatic body tissues while maintaining completely normal serum calcium concentrations describes:",
+        options: ["Metastatic calcification", "Dystrophic calcification", "Calcinosis circumscripta", "Ossification progression matrix"],
+        correctAnswer: 1,
+        explanation: "Dystrophic calcification occurs locally inside non-viable, necrotized structures despite completely normal systemic serum calcium indices."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which clinical subtype of vascular amyloidosis patterns is characterized by a primary systemic distribution profile composed of immunoglobulin light chain fibril structures?",
+        options: ["AA Amyloidosis", "AL Amyloidosis", "ATTR Amyloidosis", "Aβ2M Amyloidosis"],
+        correctAnswer: 1,
+        explanation: "AL amyloidosis tracks a plasma cell monoclonal proliferation state where structured immunoglobulin light chains unfold into beta-pleated sheets."
+    },
+    {
+        subject: "Pathology",
+        questionText: "During an acute localized bacterial infection, which molecular vascular adhesion glycoprotein family directly drives the rolling phase of leukocyte emigration?",
+        options: ["Integrins", "Selectins (E, P, and L-selectins)", "ICAM-1 immunoglobulin superfamily", "PECAM-1 transendothelial channels"],
+        correctAnswer: 1,
+        explanation: "Selectins interact dynamically with sialyl-Lewis X carbohydrate residues on leukocytes to produce the initial slow rolling deceleration profile."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of standard epithelioid histiocytes, Langhans multinucleated giant cells, and a surrounding cuff of lymphocytes on lung biopsy defines:",
+        options: ["Suppurative acute inflammation", "Granulomatous inflammation", "Fibrinous exudative cascade", "Serous interstitial infiltration"],
+        correctAnswer: 1,
+        explanation: "Granulomatous inflammation represents a distinct chronic activation pattern featuring a core group of activated, modified macrophages (epithelioid cells)."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which family of proto-oncogenes functions molecularly by acting as an internal membrane-associated GTP-binding protein switch device?",
+        options: ["MYC family", "RAS family", "HER2/neu lineage", "ABL tyrosine kinase complexes"],
+        correctAnswer: 1,
+        explanation: "The RAS oncogene family switches between an active GTP-bound signaling state and an inactive GDP-bound resting profile to coordinate transcription instructions."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which distinct neoplastic lesion shows the classical presentation of an expansive, concentric 'onion-skin' periosteal reaction layout on knee radiographic analysis?",
+        options: ["Osteosarcoma", "Ewing's sarcoma", "Chondrosarcoma", "Osteoid osteoma"],
+        correctAnswer: 1,
+        explanation: "Ewing's sarcoma is a highly malignant round-cell tumor that drives an aggressive reactive periosteal bone layout resembling concentric onion skins."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A 45-year-old male presents with severe epigastric distress. Endoscopic tissue sample microscopy documents deep mucosal neutrophilic infiltration paired with dense reactive lymphoid follicle formation. What is the most likely pathogen?",
+        options: ["Helicobacter pylori", "Cytomegalovirus", "Salmonella enteritidis", "Cryptosporidium species"],
+        correctAnswer: 0,
+        explanation: "Helicobacter pylori induces a high-density active chronic type-B gastritis presentation, inducing prominent structural mucosal lymphoid aggregate formation."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of numerous classical Reed-Sternberg cells displaying a distinctive 'owl-eye' bi-nucleated morphology establishes a diagnosis of:",
+        options: ["Burkitt lymphoma", "Hodgkin lymphoma", "Follicular center lymphoma", "Diffuse large B-cell neoplasia"],
+        correctAnswer: 1,
+        explanation: "Reed-Sternberg cells are neoplastic germinal center B-cells that serve as the mandatory pathognomonic marker for diagnosing Hodgkin lymphoma."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which mechanical variant of vascular shock states is uniquely driven by a primary systemic failure to distribute output volume due to massive peripheral arteriolar vasodilation?",
+        options: ["Cardiogenic shock", "Anaphylactic shock", "Hypovolemic shock profile", "Obstructive tamponade shock"],
+        correctAnswer: 1,
+        explanation: "Anaphylactic and septic profiles trigger massive, systemic endothelial nitric oxide release, expanding cross-sectional vascular volume space drastically."
+    },
+    {
+        subject: "Pathology",
+        questionText: "On a peripheral blood smear assessment from a patient experiencing severe acute microangiopathic hemolytic anemia, which erythrocyte shape is pathognomonic?",
+        options: ["Target cells (Codocytes)", "Schistocytes (Helmet cells)", "Spherocytes", "Teardrop cells (Dacryocytes)"],
+        correctAnswer: 1,
+        explanation: "Schistocytes represent mechanical fragmentations produced when circulating erythrocytes get torn while passing across loose fibrin mesh strands inside microvessels."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A 55-year-old chronic heavy smoker presents with an irregular, firm lung mass. Biopsy confirms sheets of polygonal cells containing dense intercellular bridges and focal pink keratin pearls. What is the diagnosis?",
+        options: ["Adenocarcinoma", "Squamous cell carcinoma", "Small cell neuroendocrine carcinoma", "Large cell anaplastic tracking"],
+        correctAnswer: 1,
+        explanation: "The presence of intercellular bridges (desmosomes) paired with explicit cytoplasmic keratinization formatting defines differentiated squamous cell carcinomas."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which distinct antiviral agent operates molecularly by inhibiting viral neuraminidase enzymes to block the release of newly replicated influenza virions?",
+        options: ["Acyclovir", "Oseltamivir", "Ribavirin", "Ganciclovir"],
+        correctAnswer: 1,
+        explanation: "Oseltamivir prevents neuraminidase from cleaving sialic acid targets, trapping freshly assembled influenza A and B virions inside the host cell membrane envelope."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe, irreversible gray baby syndrome following a neonatal infection is linked to toxicity from which antibiotic class?",
+        options: ["Gentamicin aminoglycosides", "Chloramphenicol", "Erythromycin macrolides", "Tetracycline complexes"],
+        correctAnswer: 1,
+        explanation: "Neonates lack sufficient levels of hepatic UDP-glucuronosyltransferase, leading to toxic chloramphenicol accumulation that poisons mitochondrial respiration grids."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which generation of cephalosporins does the highly active anti-pseudomonal beta-lactam agent Cefepime belong to?",
+        options: ["Second generation", "Third generation", "Fourth generation", "Fifth generation"],
+        correctAnswer: 2,
+        explanation: "Cefepime is classified as a fourth-generation cephalosporin, offering highly balanced Gram-positive coverage paired with exceptional resistance against Pseudomonas aeruginosa."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the molecular mechanism of action behind the broad-spectrum macrocyclic antibiotic Rifampicin?",
+        options: ["Inhibiting bacterial cell wall transpeptidase linking", "Binding to the 30S ribosomal subunit to alter reading frames", "Inhibiting bacterial DNA-dependent RNA polymerase enzyme fields", "Inhibiting topoisomerase II gyrase tracking complexes"],
+        correctAnswer: 2,
+        explanation: "Rifampicin binds with high affinity to the beta-subunit of bacterial RNA polymerase, structurally blocking the synthesis and elongation of nascent mRNA strands."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which class of anti-hyperlipidemic therapeutics functions primarily by competitively blocking the intracellular enzyme HMG-CoA reductase?",
+        options: ["Fibric acid derivatives (Fibrates)", "Bile acid-binding resins", "Statins (Atorvastatin, Rosuvastatin)", "Cholesterol absorption inhibitors (Ezetimibe)"],
+        correctAnswer: 2,
+        explanation: "Statins act as direct structural analogs to HMG-CoA, blocking the rate-limiting conversion step into mevalonic acid during cholesterol biogenesis pathways."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of a dry, persistent nocturnal cough during management for chronic hypertension is a common adverse effect associated with which drug class?",
+        options: ["Calcium channel blockers", "Angiotensin-Converting Enzyme (ACE) Inhibitors", "Beta-adrenergic receptor blockers", "Thiazide loop diuretic agents"],
+        correctAnswer: 1,
+        explanation: "ACE inhibitors halt the regular enzymatic degradation of bradykinin and Substance P within pulmonary tissues, leading to localized pro-inflammatory sensory irritation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which highly effective loop diuretic handles volume overloads by blocking the operational pathways of the Na+/K+/2Cl- co-transporter system?",
+        options: ["Hydrochlorothiazide", "Furosemide", "Spironolactone", "Acetazolamide carbonic inhibitors"],
+        correctAnswer: 1,
+        explanation: "Furosemide binds directly into the chloride-binding slots of the luminal symporter located inside the thick ascending limb of the loop of Henle."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the primary operational mechanism behind the anti-anginal properties of sublingual Nitroglycerin?",
+        options: ["Direct blockade of voltage-gated calcium entry channels", "Activation of soluble guanylyl cyclase, increasing intracellular cGMP levels", "Competitive blockade of beta-1 cardiac receptors", "Direct opening of ATP-sensitive potassium channels"],
+        correctAnswer: 1,
+        explanation: "Nitroglycerin releases free nitric oxide gas, which upregulates cyclic GMP configurations to dephosphorylate myosin light chains, inducing profound venodilation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which unique biguanide oral hypoglycemic agent functions primarily by activating intracellular AMP-activated protein kinase (AMPK)?",
+        options: ["Glimepiride", "Metformin", "Pioglitazone", "Sitagliptin"],
+        correctAnswer: 1,
+        explanation: "Metformin's activation of hepatic AMPK suppresses baseline mitochondrial gluconeogenesis, downregulating hepatic glucose outputs while enhancing peripheral tissue insulin sensitivity."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe, acute hemorrhagic cystitis during an oncology regimen using Cyclophosphamide is prevented by co-administering:",
+        options: ["Leucovorin calcium", "Mesna", "Allopurinol xanthine blocks", "Amifostine solutions"],
+        correctAnswer: 1,
+        explanation: "Mesna features highly reactive thiol groups that chemically neutralize acrolein, the toxic electrophilic urothelial metabolite shed by cyclophosphamide actions."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which rapid-acting anticoagulant acts molecularly by accelerating the natural inhibitory activity of Antithrombin III against Thrombin and Factor Xa?",
+        options: ["Warfarin coumarin options", "Unfractionated Heparin", "Dabigatran etexilate", "Rivaroxaban formulas"],
+        correctAnswer: 1,
+        explanation: "Heparin features a specialized pentasaccharide sequence that induces an immediate conformational change in antithrombin, accelerating its target protease clearings by 1000-fold."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the molecular mechanism behind the atypical antipsychotic agent Clozapine?",
+        options: ["Pure, potent selective dopamine D2 receptor blockade", "Combined serotonin 5-HT2A and dopamine D4/D2 receptor antagonism", "Selective serotonin reuptake inhibition (SSRI) loops", "Monoamine oxidase type B enzyme inhibition"],
+        correctAnswer: 1,
+        explanation: "Clozapine exhibits a highly balanced multi-receptor binding layout, showing a high affinity for serotonin 5-HT2A networks relative to transient dopamine D2 receptors."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which potent inhalation anesthetic matrix is characteristically linked to a risk of triggering malignant hyperthermia in genetically susceptible individuals?",
+        options: ["Nitrous oxide gas", "Halothane", "Propofol emulsion profiles", "Ketamine dissociative arrays"],
+        correctAnswer: 1,
+        explanation: "Halothane can trigger uncontrolled, continuous calcium release from altered skeletal muscle ryanodine RYR1 receptors, driving severe hypermetabolic contractions."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The selective competitive blockade of H1 histamine receptors to treat allergic rhino-conjunctivitis without causing central sedation is achieved by using:",
+        options: ["Diphenhydramine formulas", "Cetirizine", "Promethazine autonomic mixtures", "Hydroxyzine hydrochloride lines"],
+        correctAnswer: 1,
+        explanation: "Second-generation agents like cetirizine contain polar carboxyl modifications that prevent them from crossing the blood-brain barrier."
     }
 ];
 
