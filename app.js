@@ -1,6 +1,6 @@
-// MASTER PYQ COLLECTION MAPPED BY SUBJECT FIELDS - 210 ACTIVE ENTRIES
+// MASTER PYQ COLLECTION MAPPED BY SUBJECT FIELDS - 310 ACTIVE ENTRIES
 const questionDatabase = [
-    // --- ANATOMY (30 QUESTIONS) ---
+    // --- ANATOMY (50 QUESTIONS) ---
     {
         subject: "Anatomy",
         questionText: "Upward movement of the thyroid gland during swallowing is primarily prevented due to the structural attachment of which of the following?",
@@ -103,7 +103,7 @@ const questionDatabase = [
         subject: "Anatomy",
         questionText: "Which embryological structure forms the primary developmental layout for the definitive adult urinary bladder trigone?",
         options: ["Allantois stalk", "Mesonephric ducts", "Paramesonephric channels", "Cloacal entodermal floor"],
-        correctAnswer: 1,
+        correctAnswer: 2,
         explanation: "While the bladder mass arises from the urogenital sinus, the specialized trigone lining is derived from absorbed mesonephric duct structures."
     },
     {
@@ -211,8 +211,148 @@ const questionDatabase = [
         correctAnswer: 2,
         explanation: "The infundibulopelvic or suspensory ligament carries the ovarian artery, vein, and nerve networks from the lateral pelvic wall to the ovary tissue."
     },
+    {
+        subject: "Anatomy",
+        questionText: "Which structural feature forms the direct medial boundary of the femoral ring?",
+        options: ["Femoral vein", "Lacunar ligament", "Inguinal ligament", "Pectineal fascia"],
+        correctAnswer: 1,
+        explanation: "The femoral ring is bounded medially by the sharp, crescentic edge of the lacunar (Gimbernat's) ligament."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Surgical division of the isthmus of the thyroid gland typically exposes which tracheal rings?",
+        options: ["1st and 2nd", "2nd, 3rd, and 4th", "4th and 5th", "5th and 6th"],
+        correctAnswer: 1,
+        explanation: "The thyroid isthmus lies directly anterior to the 2nd, 3rd, and 4th tracheal rings, serving as a critical landmark during tracheostomy."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which muscle is explicitly responsible for opening the jaw by depressing the mandible?",
+        options: ["Masseter", "Temporalis", "Lateral pterygoid", "Medial pterygoid"],
+        correctAnswer: 2,
+        explanation: "The lateral pterygoid is the only muscle of mastication that actively depresses the mandible to open the mouth; the others elevate it."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The sensory nerve supply providing coverage across the anatomical root of the nose is derived from which branch?",
+        options: ["Infratrochlear nerve (CN V1)", "Infraorbital nerve (CN V2)", "External nasal nerve (CN V1)", "Zygomaticofacial nerve"],
+        correctAnswer: 0,
+        explanation: "The infratrochlear nerve, a branch of the nasociliary nerve (V1), supplies the skin over the root and upper bridge of the nose."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which embryological tissue component gives rise to the definitive adult superior parathyroid glands?",
+        options: ["3rd pharyngeal pouch", "4th pharyngeal pouch", "2nd pharyngeal pouch", "Thyroglossal duct remnant"],
+        correctAnswer: 1,
+        explanation: "The 4th pharyngeal pouch gives rise to the superior parathyroid glands, while the 3rd pouch develops into the inferior parathyroid glands and thymus."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The epithelial lining covering the anatomical vocal folds is structurally composed of what cell type?",
+        options: ["Pseudostratified ciliated columnar tissue", "Simple squamous epithelium", "Stratified squamous non-keratinized epithelium", "Transitional epithelium"],
+        correctAnswer: 2,
+        explanation: "The true vocal cords are lined with stratified squamous epithelium to withstand the severe mechanical friction associated with phonation."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "A patient presents with 'winging' of the scapula. This clinical sign indicates paralysis of which muscle?",
+        options: ["Trapezius", "Rhomboid major", "Serratus anterior", "Latissimus dorsi"],
+        correctAnswer: 2,
+        explanation: "Paralysis of the serratus anterior muscle due to long thoracic nerve injury (C5-C7) causes the medial border of the scapula to protrude backward."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The deep inguinal ring represents a physical opening situated directly within which anatomical sheet layer?",
+        options: ["External oblique aponeurosis", "Internal oblique muscle belly", "Transversalis fascia", "Conjoint tendon matrix"],
+        correctAnswer: 2,
+        explanation: "The deep inguinal ring is an oval out-pocketing opening found directly within the transversalis fascia layer."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which vessel runs directly within the hepatoduodenal ligament as part of the portal triad layout?",
+        options: ["Hepatic vein", "Proper hepatic artery", "Left gastric artery", "Splenic vein"],
+        correctAnswer: 1,
+        explanation: "The portal triad traveling within the hepatoduodenal ligament is composed of the proper hepatic artery, portal vein, and common bile duct."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The dynamic anatomical structure known as the epiploic foramen of Winslow is bounded posteriorly by which structure?",
+        options: ["Portal vein", "Inferior Vena Cava (IVC)", "Caudate lobe of liver", "First part of the duodenum"],
+        correctAnswer: 1,
+        explanation: "The foramen of Winslow is bounded anteriorly by the free edge of the lesser omentum (containing the portal triad) and posteriorly by the IVC."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which intracranial dural venous sinus is located along the superior attachment edge of the falx cerebri?",
+        options: ["Inferior sagittal sinus", "Superior sagittal sinus", "Straight sinus", "Transverse sinus"],
+        correctAnswer: 1,
+        explanation: "The superior sagittal sinus runs inside the attached upper border of the falx cerebri, collecting CSF via arachnion granulations."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which intrinsic tongue muscle is responsible for flattening and widening the tongue surface body?",
+        options: ["Superior longitudinal muscle", "Inferior longitudinal muscle", "Vertical muscle", "Transverse muscle"],
+        correctAnswer: 2,
+        explanation: "The vertical intrinsic tongue muscle runs from the upper to lower surfaces, acting directly to flatten and broaden the tongue body layout."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The major vascular trunk known as the celiac artery typically branches off the abdominal aorta at which skeletal level?",
+        options: ["T12 vertebral level", "L1 vertebral level", "L2 vertebral level", "L3 vertebral level"],
+        correctAnswer: 0,
+        explanation: "The celiac trunk branches off the anterior aspect of the abdominal aorta immediately below the aortic hiatus at the T12 level."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which cranial nerve provides taste sensation coverage across the posterior one-third of the human tongue?",
+        options: ["Chorda tympani (CN VII)", "Lingual nerve (CN V3)", "Glossopharyngeal nerve (CN IX)", "Vagus nerve (CN X)"],
+        correctAnswer: 2,
+        explanation: "The glossopharyngeal nerve (CN IX) supplies both general sensation and special taste sensation to the posterior one-third of the tongue body."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The cluster of cells forming the sinoatrial (SA) node is anatomically situated within which region of the heart?",
+        options: ["Interatrial septum near limbus", "Opening of coronary sinus", "Terminal sulcus near the superior vena cava opening", "Right ventricular infundibulum floor"],
+        correctAnswer: 2,
+        explanation: "The SA node pacemaker tissue is localized subendocardially inside the upper part of the crista terminalis/sulcus terminalis area of the right atrium."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "An injury affecting the upper trunk of the brachial plexus (C5, C6) results in which classical clinical deformity?",
+        options: ["Erb's palsy ('waiter's tip' hand)", "Klumpke's paralysis (claw hand)", "Wrist drop configuration", "Ape hand deformity"],
+        correctAnswer: 0,
+        explanation: "Erb-Duchenne palsy stems from upper trunk injuries, leaving the arm hanging internally rotated and adducted in a waiter's tip pose."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which direct structural branch originates off the posterior cord of the brachial plexus map?",
+        options: ["Musculocutaneous nerve", "Radial nerve", "Ulnar nerve", "Median nerve lateral root"],
+        correctAnswer: 1,
+        explanation: "The radial nerve and axillary nerve are the major terminal outputs derived directly from the posterior cord (C5-T1)."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The anatomical structures known as the chordsae tendineae connect papillary muscles to which specific elements?",
+        options: ["Aortic valve leaflets", "Atrioventricular valve cusps", "Pectinate muscle walls", "Trabeculae carneae bars"],
+        correctAnswer: 1,
+        explanation: "Chorda tendineae link right/left ventricular papillary muscle heads to the tricuspid and mitral valve cusps to prevent valve inversion."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which specialized cell layer synthesizes and maintains the myelin sheath wrapping peripheral nervous system axons?",
+        options: ["Oligodendrocytes", "Schwann cells", "Astrocytes", "Microglial populations"],
+        correctAnswer: 1,
+        explanation: "Schwann cells wrap single peripheral nerve axons with myelin sheets, whereas oligodendrocytes manage multiple central nervous system segments."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The specific location where the parotid salivary gland duct dumps contents into the oral cavity is near the:",
+        options: ["Base of the lingual frenulum", "Crown of the second upper molar tooth", "Lower central incisor root", "Sublingual fold caruncle"],
+        correctAnswer: 1,
+        explanation: "Stensen's parotid duct travels across the masseter muscle, pierces the buccinator, and opens opposite the second upper molar crown."
+    },
 
-    // --- PHYSIOLOGY (30 QUESTIONS) ---
+    // --- PHYSIOLOGY (50 QUESTIONS) ---
     {
         subject: "Physiology",
         questionText: "Where is the highest oxygen concentration present within the fetal circulatory pathway?",
@@ -330,7 +470,7 @@ const questionDatabase = [
         questionText: "Which sound frequency sensor grid zone inside the cochlea registers high-frequency sound inputs?",
         options: ["Apex near helicotrema structures", "The base of the basilar membrane", "The intermediate midpoint curve", "Tectorial membrane edge elements"],
         correctAnswer: 1,
-        explanation: "The basilar membrane base is narrow and stiff, making it resonate selectively to fast, high-frequency sound waves."
+        explanation: "The basilar membrane base is narrow and its stiffness properties tune it to resonate selectively to fast, high-frequency sound waves."
     },
     {
         subject: "Physiology",
@@ -393,7 +533,7 @@ const questionDatabase = [
         questionText: "Which structural element forms the mandatory baseline channel for generating the slow pacemaker potential in SA node tissue cells?",
         options: ["Voltage-gated fast sodium channels", "Funny current ($I_f$) sodium-potassium channels", "L-type calcium channel arrays", "Delayed rectifier potassium currents"],
         correctAnswer: 1,
-        explanation: " Pacemaker cells rely on funny current channels ($I_f$) that slowly leak sodium inward at hyperpolarized voltages, driving the cell toward threshold."
+        explanation: "Pacemaker cells rely on funny current channels ($I_f$) that slowly leak sodium inward at hyperpolarized voltages, driving the cell toward threshold."
     },
     {
         subject: "Physiology",
@@ -419,12 +559,82 @@ const questionDatabase = [
     {
         subject: "Physiology",
         questionText: "What primary physiologic function does aldosterone perform inside the principal cells of the late distal tubule and collecting ducts?",
-        options: ["Inhibiting sodium reabsorption tracks", "Upregulating apical epithelial sodium channels (ENaC) and basal Na+/K+ pumps", "Directly stimulating water movement through aquaporin-2 insert tracks", "Halting hydrogen ion excretion parameters"],
+        options: ["Inhibiting sodium reabsorption tracks", "Upregulating active epithelial sodium channels (ENaC) and basal Na+/K+ pumps", "Directly stimulating water movement through aquaporin-2 insert tracks", "Halting hydrogen ion excretion parameters"],
         correctAnswer: 1,
         explanation: "Aldosterone works through nuclear transcription networks to add more ENaC channels and sodium pumps, boosting sodium retention and potassium loss."
     },
+    {
+        subject: "Physiology",
+        questionText: "What is the baseline physiological driver initiating the firing mechanism of skeletal muscle spindles?",
+        options: ["Passive stretch or elongation of the muscle muscle", "Active tetanic isometric hypercontraction", "Massive intracellular potassium concentration drops", "Complete golgi tendon organ deactivation"],
+        correctAnswer: 0,
+        explanation: "Muscle spindles track muscle length, firing baseline signals when a passive muscle stretch stretches the internal intrafusal fibers."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The baseline resting membrane potential of standard human erythrocytes is primarily maintained close to the equilibrium potential of which ion?",
+        options: ["Sodium", "Chloride", "Calcium", "Magnesium"],
+        correctAnswer: 1,
+        explanation: "Unlike nerve cells which track potassium parameters, erythrocyte membranes are highly permeable to chloride, which aligns the resting potential near its balance."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What major change occurs during dark adaptation inside the retinal photoreceptor cells?",
+        options: ["Rapid breakdown of iodopsin complexes", "Re-synthesis and accumulation of functional rhodopsin", "Complete closure of cyclic GMP-gated sodium channels", "Profound drop in intracellular calcium levels"],
+        correctAnswer: 1,
+        explanation: "Dark adaptation relies on rebuilding rods' rhodopsin reserves, which takes roughly 20-30 minutes to optimize night vision."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which renal clearance profile is traditionally used as the gold-standard measure of true glomerular filtration rate (GFR)?",
+        options: ["Creatinine clearance", "Inulin clearance", "Urea clearance quotient", "PAH transport clearance metrics"],
+        correctAnswer: 1,
+        explanation: "Inulin is freely filtered by the glomerulus but is neither reabsorbed nor secreted along the tubules, making its clearance equal to the true GFR."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The steep, rapid upregulation upstroke of the active cardiac action potential inside purkinje fibers (Phase 0) is driven by:",
+        options: ["Slow calcium inward currents", "Fast sodium inward currents", "Delayed rectifier potassium currents", "Basal chloride channel leaks"],
+        correctAnswer: 1,
+        explanation: "Phase 0 in purkinje and working cardiac cells relies on fast voltage-gated sodium channels ($I_{Na}$); slow pacemaker tissue relies on calcium channels instead."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which compound triggers a strong contraction of the intestinal gallbladder wall while stimulating pancreatic enzyme outputs?",
+        options: ["Secretin", "Cholecystokinin (CCK)", "Gastrin", "Motilin"],
+        correctAnswer: 1,
+        explanation: "CCK, synthesized by I-cells in the duodenum, coordinates fat breakdown by prompting gallbladder contraction and stimulating pancreatic enzyme release."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What specific parameter does the physiological acronym functional residual capacity (FRC) represent?",
+        options: ["Residual Volume minus Expiratory Reserve Volume", "Expiratory Reserve Volume plus Residual Volume", "Tidal Volume plus Residual Volume", "Inspiratory Capacity plus Vital Capacity"],
+        correctAnswer: 1,
+        explanation: "FRC represents the volume of air left in the lungs after a normal, passive tidal expiration ($FRC = ERV + RV$)."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The sensory parsing of fine touch and conscious proprioception signals travels up the spinal cord via which pathway?",
+        options: ["Anterior spinothalamic tract", "Lateral spinothalamic track", "Dorsal column-medial lemniscal pathway", "Anterior spinocerebellar line"],
+        correctAnswer: 2,
+        explanation: "Dorsal columns (fasciculus gracilis and cuneatus) carry fine touch and vibration inputs, crossing over inside the medulla oblongata framework."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What is the primary operational effect of increased vagal parasympathetic tone targeting the cardiac sinoatrial (SA) node?",
+        options: ["Upregulating pacemaker funny current vectors", "Hyperpolarizing the cell by increasing potassium permeability via $I_{KACh}$ channels", "Accelerating Phase 4 diastolic depolarization rates", "Opening L-type calcium channels earlier"],
+        correctAnswer: 1,
+        explanation: "Acetylcholine binds to M2 receptors, activating $I_{KACh}$ potassium channels to hyperpolarize the node and slow the heart rate."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which pancreatic cell type synthesizes and secretes the primary regulatory peptide glucagon?",
+        options: ["Alpha cells", "Beta cells", "Delta cells", "F cells (PP cells)"],
+        correctAnswer: 0,
+        explanation: "Alpha cells in the islets of Langerhans synthesize glucagon to raise blood sugar, while beta cells produce insulin."
+    },
 
-    // --- BIOCHEMISTRY (30 QUESTIONS) ---
+    // --- BIOCHEMISTRY (50 QUESTIONS) ---
     {
         subject: "Biochemistry",
         questionText: "A patient diagnosed with deep vein thrombosis (DVT) and pulmonary embolism is initiated on Warfarin therapy. Which of the following clotting factors will exhibit a decreased concentration of γ-carboxyglutamate residues?",
@@ -441,7 +651,7 @@ const questionDatabase = [
     },
     {
         subject: "Biochemistry",
-        questionText: "A 4-year-old child from a consanguineous marriage is observed to have urine that turns almost pitch-black upon standing. Growth and development parameters are normal. Which of the following biochemical intermediates is characteristically elevated in this condition?",
+        questionText: "A 4-year-old child from a consaguineous marriage is observed to have urine that turns almost pitch-black upon standing. Growth and development parameters are normal. Which of the following biochemical intermediates is characteristically elevated in this condition?",
         options: ["Methylmalonate", "Phenylpyruvate", "Homogentisate", "α-Ketoisovalerate"],
         correctAnswer: 2,
         explanation: "Alkaptonuria involves a deficiency of homogentisic acid oxidase, causing homogentisate accumulation and air-oxidation to dark pigments."
@@ -623,7 +833,7 @@ const questionDatabase = [
     },
     {
         subject: "Biochemistry",
-        questionText: "Which secondary structural protein layout is highly rich in parallel hydrogen bonds running along a single single polypeptide chain axis?",
+        questionText: "Which secondary structural protein layout is highly rich in parallel hydrogen bonds running along a single polypeptide chain axis?",
         options: ["Alpha-helix configuration", "Beta-pleated sheet layout", "Triple helix formations", "Random coil architectures"],
         correctAnswer: 0,
         explanation: "The alpha-helix structure is stabilized by hydrogen bonds running down the central cylinder axis between amino acid groups."
@@ -635,8 +845,78 @@ const questionDatabase = [
         correctAnswer: 0,
         explanation: "An ADA deficiency leads to the buildup of toxic dATP pools that poison developing T and B lymphocytes, precipitating autosomal recessive SCID."
     },
+    {
+        subject: "Biochemistry",
+        questionText: "Which cofactor is required by the enzyme pyruvate carboxylase during gluconeogenesis?",
+        options: ["Thiamine pyrophosphate (TPP)", "Pyridoxal phosphate (PLP)", "Biotin", "Tetrahydrofolate (THF)"],
+        correctAnswer: 2,
+        explanation: "Pyruvate carboxylase is an ABC enzyme (requires ATP, Biotin, and CO2) that converts pyruvate to oxaloacetate."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "The oxidative phase of the Pentose Phosphate Pathway (HMP Shunt) is primarily designed to generate:",
+        options: ["NADH for the electron transport chain", "NADPH for reductive biosyntheses", "FADH2 for oxidative phosphorylation", "ATP via substrate-level phosphorylation"],
+        correctAnswer: 1,
+        explanation: "The HMP shunt's primary outputs are NADPH (used for fatty acid synthesis and keeping glutathione reduced) and ribose-5-phosphate for nucleotides."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which amino acid is classified as purely ketogenic, meaning its catabolism yields only acetyl-CoA or acetoacetate?",
+        options: ["Alanine", "Leucine", "Tyrosine", "Phenylalanine"],
+        correctAnswer: 1,
+        explanation: "Leucine and Lysine are the only two purely ketogenic amino acids; the others are either purely glucogenic or mixed."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "What type of link joins the individual Okazaki fragments formed along the lagging DNA strand during replication?",
+        options: ["Hydrogen bonds", "3'-5' phosphodiester bonds via DNA ligase", "2'-5' phosphodiester linkages", "Peptide backbones"],
+        correctAnswer: 1,
+        explanation: "DNA ligase seals nicks in the lagging strand by creating structural phosphodiester bonds between adjacent segments."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "A patient presents with cracked skin sloughing over sun-exposed areas, diarrhea, and progressive cognitive decline. Which vitamin pathway is disrupted?",
+        options: ["Thiamine (B1)", "Riboflavin (B2)", "Niacin (B3)", "Cobalamin (B12)"],
+        correctAnswer: 2,
+        explanation: "This classic triad (pellagra: dermatitis, diarrhea, dementia) stems from a Niacin (Vitamin B3) deficiency, which can develop from tryptophan issues."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which statement accurately describes the molecular effect of an uncoupler like 2,4-Dinitrophenol (DNP) on the respiratory chain?",
+        options: ["Blocks electron transfer from Complex I to Ubiquinone", "Inhibits ATP synthase directly", "Dissipates the proton gradient across the inner membrane", "Halts oxygen consumption completely"],
+        correctAnswer: 2,
+        explanation: "Uncouplers make the inner mitochondrial membrane leaky to protons, ruining the electrochemical gradient and causing energy to slide off as raw heat."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which molecule acts as the primary carrier transporting free fatty acids through the human plasma system?",
+        options: ["Chylomicrons", "Serum Albumin", "VLDL particles", "HDL complexes"],
+        correctAnswer: 1,
+        explanation: "While triglycerides travel wrapped inside lipoprotein shells, unesterified free fatty acids bind directly to surface pockets on albumin."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which nitrogenous base is found exclusively within RNA transcripts, completely absent from native double-stranded DNA?",
+        options: ["Thymine", "Uracil", "Adenine", "Cytosine"],
+        correctAnswer: 1,
+        explanation: "RNA incorporates Uracil instead of Thymine, binding with Adenine during transcription operations."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "What disease is caused by a structural deficiency in the alpha-galactosidase A enzyme?",
+        options: ["Gaucher disease", "Fabry disease", "Niemann-Pick disease", "Tay-Sachs anomaly"],
+        correctAnswer: 1,
+        explanation: "Fabry disease is an X-linked sphingolipidosis caused by a lack of alpha-galactosidase A, leading to painful peripheral neuropathy and renal failure."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which enzyme handles the first committed step of purine nucleotide synthesis and is feedback-inhibited by AMP and GMP?",
+        options: ["PRPP synthetase", "PRPP glutamyl amidotransferase", "HGPRT salvage complexes", "Xanthine oxidase"],
+        correctAnswer: 1,
+        explanation: "Glutamine-PRPP amidotransferase converts PRPP to 5-phosphoribosylamine, marking the primary step of purine synthesis."
+    },
 
-    // --- PATHOLOGY (40 QUESTIONS) ---
+    // --- PATHOLOGY (50 QUESTIONS) ---
     {
         subject: "Pathology",
         questionText: "Ochronosis manifests as deep pigment deposition within intervertebral discs and ear cartilage due to systemic accumulation of:",
@@ -835,7 +1115,7 @@ const questionDatabase = [
     },
     {
         subject: "Pathology",
-        questionText: "The presence of standard Schaumann bodies and asteroid bodies inside non-caseating granulomas points toward which diagnosis?",
+        questionText: "The presence of numerous Schaumann bodies and asteroid bodies inside non-caseating granulomas points toward which diagnosis?",
         options: ["Tuberculosis", "Sarcoidosis", "Lepromatous leprosy", "Histoplasmosis"],
         correctAnswer: 1,
         explanation: "Sarcoidosis features non-caseating granulomas that contain lamellar calcium-protein structures (Schaumann bodies) and stellate inclusions (asteroid bodies)."
@@ -856,7 +1136,7 @@ const questionDatabase = [
     },
     {
         subject: "Pathology",
-        questionText: "Which vascular condition classically involves the structural destruction of the tunica media within the ascending aorta due to tertiary syphilis?",
+        questionText: "Which vascular condition classically involves structural destruction of the tunica media within the ascending aorta due to tertiary syphilis?",
         options: ["Moneckeberg arteriosclerosis", "Obliterative endarteritis of the vasa vasorum", "Thromboangiitis obliterans", "Giant cell temporal arteritis"],
         correctAnswer: 1,
         explanation: "Syphilis attacks the tiny vasa vasorum vessels supplying the aortic arch, starving the tunica media of oxygen and causing it to weaken and dilate."
@@ -917,8 +1197,78 @@ const questionDatabase = [
         correctAnswer: 3,
         explanation: "Psammoma bodies represent localized dystrophic calcified whorled structures found in papillary thyroid cancers, meningiomas, and serous ovarian tumors, but are absent in follicular thyroid tumors."
     },
+    {
+        subject: "Pathology",
+        questionText: "Which primary gene mutation handles the structural development of Familial Adenomatous Polyposis (FAP)?",
+        options: ["Mismatch repair genes (MSH2/MLH1)", "APC gene", "BRCA1 locus", "RET proto-oncogene array"],
+        correctAnswer: 1,
+        explanation: "FAP stems from an autosomal dominant mutation in the APC gene on chromosome 5, causing hundreds of adenomatous polyps to populate the colon."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The microscopic appearance of 'orphan annie eyes' clear ground-glass nuclei is diagnostic for which condition?",
+        options: ["Medullary thyroid carcinoma", "Anaplastic thyroid carcinoma", "Papillary thyroid carcinoma", "Follicular thyroid carcinoma"],
+        correctAnswer: 2,
+        explanation: "Finely dispersed, optically clear chromatin patterns resembling Orphan Annie's eyes are pathognomonic markers for papillary thyroid cancer."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A renal biopsy tracks thick, glassy nodular configurations known as Kimmelstiel-Wilson lesions. This confirms:",
+        options: ["Post-streptococcal glomerulonephritis", "Diabetic nephropathy", "Focal segmental glomerulosclerosis", "Amyloid light-chain deposition"],
+        correctAnswer: 1,
+        explanation: "Nodular glomerulosclerosis or Kimmelstiel-Wilson lesions are structural loops of mesangial matrix deposition diagnostic of long-term diabetes mellitus."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which visual sign defines an ongoing chronic myeloid leukemia (CML) profile under cytogenetic analysis?",
+        options: ["Translocation t(15;17)", "The Philadelphia chromosome t(9;22)", "Translocation t(11;14)", "Deletion 13q structural blocks"],
+        correctAnswer: 1,
+        explanation: "The t(9;22) translocation creates the BCR-ABL fusion gene on the Philadelphia chromosome, driving the tyrosine kinase activity that causes CML."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The development of a pathognomonic 'Gaucher cell' wrinkled tissue-paper cytoplasm stems from accumulation of:",
+        options: ["Sphingomyelin arrays", "Glucocerebroside", "Galactocerebroside units", "Ceramide trihexoside structures"],
+        correctAnswer: 1,
+        explanation: "A deficiency in lysosomal glucocerebrosidase leaves lipid-stuffed macrophages with a classic crinkled, wrinkled tissue-paper look."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which cellular adaptation describes an absolute decrease in cellular size and functional output capacity?",
+        options: ["Atrophy", "Hypertrophy", "Metaplasia", "Aplasia frames"],
+        correctAnswer: 0,
+        explanation: "Atrophy is an adaptive downsizing step where cells shed metabolic weight and structures to survive stressful conditions."
+    },
+    {
+        subject: "Pathology",
+        questionText: "What primary inflammatory mediator handles the rapid generation of localized pain configurations within acute injury beds?",
+        options: ["Leukotriene B4", "Bradykinin and Prostaglandins (PGE2)", "Histamine releases", "C5a anaphylatoxins"],
+        correctAnswer: 1,
+        explanation: "Bradykinin and PGE2 directly lower the activation thresholds of local nociceptive sensory nerve endings, transmitting pain signals to the brain."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of Councilman bodies inside a hepatic biopsy sample indicates which process?",
+        options: ["Glycogen storage disease macro-aggregates", "Apoptotic hepatocytes following acute viral hepatitis", "Fatty saponification vacuoles", "Chronic biliary stagnation zones"],
+        correctAnswer: 1,
+        explanation: "Councilman bodies are deeply eosinophilic, shrunken apoptotic liver cells resulting from viral or toxic liver injuries."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which vascular condition involves an active, transmural necrotizing granulomatous inflammation loop localized across the respiratory tract?",
+        options: ["Churg-Strauss syndrome", "Granulomatosis with Polyangiitis (Wegener's)", "Microscopic polyangiitis", "Kawasaki disease matrices"],
+        correctAnswer: 1,
+        explanation: "Wegener's (GPA) presents with a classic triad of necrotizing granulomas in the airway, focal necrotizing vasculitis, and crescentic glomerulonephritis, often scoring PR3-ANCA (c-ANCA) positivity."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The microscopic layout of dense Mallory-Denk bodies inside swollen hepatocyte frames is highly associated with:",
+        options: ["Wilson's disease copper loops", "Alcoholic liver disease", "Alpha-1 antitrypsin storage defects", "Primary sclerosing cholangitis"],
+        correctAnswer: 1,
+        explanation: "Mallory bodies are twisted ropes of cytokeratin intermediate filaments that collect inside damaged liver cells, classically seen in alcoholic hepatitis."
+    },
 
-    // --- PHARMACOLOGY (40 QUESTIONS) ---
+    // --- PHARMACOLOGY (50 QUESTIONS) ---
     {
         subject: "Pharmacology",
         questionText: "Which of the following molecularly targeted anti-cancer agents acts as a competitive inhibitor of tyrosine kinase?",
@@ -959,7 +1309,7 @@ const questionDatabase = [
         questionText: "Which antimicrobial agent should be strictly avoided in a chronic asthmatic patient managed on active daily theophylline therapy?",
         options: ["Erythromycin", "Amoxicillin", "Cefotaxime", "Cotrimoxazole"],
         correctAnswer: 0,
-        explanation: "Macrolide antibiotics like erythromycin block clearance channels by inhibiting CYP1A2, driving toxic accumulations of theophylline."
+        explanation: "Macrolide antibiotics like erythromycin delete clearance channels by inhibiting CYP1A2, driving toxic updates."
     },
     {
         subject: "Pharmacology",
@@ -1199,8 +1549,78 @@ const questionDatabase = [
         correctAnswer: 1,
         explanation: "Allopurinol acts as a structural isomer of hypoxanthine, blocking xanthine oxidase to halt the synthesis of uric acid."
     },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the primary therapeutic mechanism behind the action of low-dose Aspirin in preventing cardiovascular ischemic events?",
+        options: ["Irreversible acetylation and inhibition of Platelet Cyclooxygenase-1 (COX-1)", "Potent activation of plasminogen complexes", "Competitive blockade of ADP P2Y12 surface receptors", "Direct upregulation of circulating prostacyclin levels"],
+        correctAnswer: 0,
+        explanation: "Aspirin permanently blocks platelet COX-1, shutting down Thromboxane A2 production for the entire lifespan of the platelet to prevent aggregation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which medication serves as the primary, long-term Drug of Choice (DOC) for managing central Diabetes Insipidus?",
+        options: ["Furosemide", "Desmopressin (DDAVP)", "Chlorpropamide", "Hydrochlorothiazide loops"],
+        correctAnswer: 1,
+        explanation: "Desmopressin acts as a selective V2 vasopressin receptor agonist, stimulating water reabsorption in the collecting ducts without hitting V1 pressor targets."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe, acute tendonitis and secondary Achilles tendon rupture is an adverse effect uniquely linked to:",
+        options: ["Macrolides", "Fluoroquinolones (Ciprofloxacin, Levofloxacin)", "Sulfonamides", "Tetracyclines"],
+        correctAnswer: 1,
+        explanation: "Fluoroquinolones can damage extracellular cartilage matrix sheets, carrying a black-box safety warning for tendonitis risks."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which structural antibiotic class functions molecularly by binding tightly to the 50S ribosomal subunit to block bacterial peptidyl transferase activity?",
+        options: ["Aminoglycosides", "Macrolides (Erythromycin, Azithromycin)", "Tetracyclines", "Fluoroquinolones"],
+        correctAnswer: 1,
+        explanation: "Macrolides bind the 23S rRNA component of the 50S subunit, jamming translocation steps along nascent peptide chains."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What medication is used as a specific competitive antagonist to reverse structural respiratory depression induced by an acute morphine overdose?",
+        options: ["Flumazenil", "Naloxone", "Methadone", "Buprenorphine profiles"],
+        correctAnswer: 1,
+        explanation: "Naloxone is a rapid-acting, pure opioid mu-receptor antagonist that displaces morphine molecules to restore breathing control."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which anti-tuberculosis medication classically carries the risk of triggering dose-dependent retrobulbar optic neuritis?",
+        options: ["Isoniazid", "Rifampicin", "Ethambutol", "Pyrazinamide"],
+        correctAnswer: 2,
+        explanation: "Ethambutol can cause a reversible or permanent loss of visual acuity and red-green color blindness due to optic nerve tracking toxicity."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "By what primary molecular step does the anti-diabetic agent Pioglitazone work?",
+        options: ["Blocking the K+ channels in pancreatic beta cells", "Activating the nuclear transcription factor PPAR-gamma", "Inhibiting intestinal alpha-glucosidase enzymes", "Upregulating renal SGLT2 filtration clearings"],
+        correctAnswer: 1,
+        explanation: "Thiazolidinediones bind PPAR-gamma to upregulate transcription of glucose transporter genes like GLUT4, reducing peripheral insulin resistance."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of a severe, life-threatening disulfiram-like reaction following ethanol consumption is an established complication of:",
+        options: ["Metronidazole", "Amoxicillin", "Ciprofloxacin", "Azithromycin"],
+        correctAnswer: 0,
+        explanation: "Metronidazole inhibits the enzyme acetaldehyde dehydrogenase, causing toxic acetaldehyde accumulation that triggers flushing, vomiting, and tachycardia if mixed with alcohol."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which drug line is classified as a highly selective competitive blocker of Angiotensin II Type 1 (AT1) receptors?",
+        options: ["Enalapril", "Losartan", "Aliskiren", "Amlodipine"],
+        correctAnswer: 1,
+        explanation: "Angiotensin Receptor Blockers (ARBs) like losartan target the AT1 receptor directly, blocking angiotensin II actions without altering bradykinin levels."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the primary pharmacological action of the standard emergency drug Epinephrine when managing systemic anaphylactic shock?",
+        options: ["Potent selective beta-2 receptor blockade", "Agonism at alpha-1, alpha-2, beta-1, and beta-2 receptors", "Selective dopamine receptor stimulation", "Direct inhibition of leukotriene synthesis networks"],
+        correctAnswer: 1,
+        explanation: "Epinephrine handles anaphylaxis multi-systemically: alpha-1 vasoconstriction reverses hypotension, while beta-2 activation drives bronchodilation to secure the airway."
+    },
 
-    // --- FORENSIC MEDICINE & PSYCHIATRY (20 QUESTIONS) ---
+    // --- FORENSIC MEDICINE & PSYCHIATRY (30 QUESTIONS) ---
     {
         subject: "Forensic Medicine",
         questionText: "Which primary piece of legislation defines criminal definitions and punishments for child sexual abuse scenarios across all of India?",
@@ -1341,8 +1761,78 @@ const questionDatabase = [
         correctAnswer: 2,
         explanation: "Delirium tremens is the most severe manifestation of alcohol withdrawal, featuring confusion and sympathetic overdrive that can prove fatal if left unmanaged."
     },
+    {
+        subject: "Forensic Medicine",
+        questionText: "A dead body displays a generalized stiffening of the muscle groups known as rigor mortis. This structural parameter is biochemically caused by:",
+        options: ["Rapid buildup of glycogen grids", "Complete depletion of cellular ATP preventing actin-myosin detachment", "Massive enzymatic breakdown of myofilaments", "Localized drops in intracellular calcium values"],
+        correctAnswer: 1,
+        explanation: "Without metabolic ATP production after death, actin-myosin cross-bridges lock into place, causing muscles to stiffen into rigor mortis."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "The presence of a bright green discoloration across the right iliac fossa skin region of a corpse marks the first sign of:",
+        options: ["Corrosive chemical poisoning leaks", "Putrefaction mediated by sulfhemoglobin synthesis", "Subcutaneous mechanical contusion bleeding", "Arsenic deposition tracks"],
+        correctAnswer: 1,
+        explanation: "Bacterial clearings during putrefaction generate hydrogen sulfide gas, which combines with hemoglobin to form green sulfhemoglobin in the right iliac fossa skin."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "Which diagnostic weapon marker matches a classic 'carwash' abrasion ring layout circling a bullet entry hole?",
+        options: ["Contact shot carbon scorching", "Rifling groove grease and soot wiping", "Powder tattooing granules", "High-velocity exit burst splits"],
+        correctAnswer: 1,
+        explanation: "The spinning bullet wipes its surface grease, soot, and lead residue directly onto the entry margins, creating a dark 'dirt ring' or grease collar."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "What represents the minimum mandatory legal age framework across India required to deliver standalone independent medical consent?",
+        options: ["12 years under Section 88 IPC", "16 years of age", "18 years of age", "21 years of age limits"],
+        correctAnswer: 2,
+        explanation: "While Indian law recognizes basic consent parameters under specific settings at 12, an individual must be 18 to sign formal, independent contracts for complex medical configurations."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "The unique postmortem change known as Adipocere formation is highly favored inside which environmental conditions?",
+        options: ["Hot, dry arid desert sand tracking", "Cold, damp stagnant water or moist soil burials", "Well-ventilated ambient oxygen-rich spaces", "High-intensity continuous freezing zones"],
+        correctAnswer: 1,
+        explanation: "Adipocere develops when body fats undergo post-mortem hydrolysis and hydrogenation into a yellowish-white, waxy soap layer in damp, low-oxygen settings."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "Which poisonous substance classically presents with a prominent diagnostic clinical feature of severe, pinpoint pupillary constriction?",
+        options: ["Atropine sulfate mixtures", "Organophosphate insecticides / Opioids", "Cocaine derivatives", "Amphetamine CNS stimulants"],
+        correctAnswer: 1,
+        explanation: "Organophosphates inhibit acetylcholinesterase, leading to an overaccumulation of acetylcholine that drives intense parasympathetic miosis (pinpoint pupils)."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "A clinical case presents with dark, dense lead lines along the gingival margins. These pathognomonic markings are known as:",
+        options: ["Mee's line markers", "Burtonian lines", "Aldrich boundaries", "Lines of Zahn layout"],
+        correctAnswer: 1,
+        explanation: "Burtonian lines develop when circulating lead reacts with bacterial hydrogen sulfide in the mouth, depositing blue-black lead sulfide ribbons along the gums."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "A patient reports experiencing a strong, clear perception of a human voice speaking aloud inside an empty room while completely alone. This represents a:",
+        options: ["Illusion anomaly", "True Hallucination", "Delusional interpretation line", "Pseudohallucination setup"],
+        correctAnswer: 1,
+        explanation: "Hallucinations involve clear sensory perceptions that arise without any external stimulus, differing from illusions which are misinterpretations of actual objects."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "Which psychiatric medication profile carries a narrow therapeutic index requiring routine laboratory tracking to avoid cardiac and renal toxicity?",
+        options: ["Fluoxetine", "Lithium Carbonate", "Olanzapine antipsychotics", "Diazepam sleep aids"],
+        correctAnswer: 1,
+        explanation: "Lithium requires regular serum level tracking (maintenance target: 0.6–1.2 mEq/L) because toxic levels can easily damage the kidneys and central nervous system."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "A patient presents with a conversion disorder profile. What defines this clinical state?",
+        options: ["Malingering deliberate fraud updates", "Unconscious expression of psychological conflicts as physical neurological deficits", "Chronic somatic hypochondriasis fears", "Factitious illness seeking self-gain layouts"],
+        correctAnswer: 1,
+        explanation: "Conversion disorder involves the involuntary translation of emotional stressors into functional neurological symptoms (like sudden blindness or paralysis) without any medical cause."
+    },
 
-    // --- MICROBIOLOGY (30 QUESTIONS) ---
+    // --- MICROBIOLOGY (50 QUESTIONS) ---
     {
         subject: "Microbiology",
         questionText: "Which primary mosquito vector is responsible for the epidemiological transmission of the Zika virus?",
@@ -1516,7 +2006,7 @@ const questionDatabase = [
         questionText: "What is the mechanism of action behind the toxic effects of Diphtheria toxin?",
         options: ["Cleaving neuronal synaptobrevin tracks", "ADP-ribose inactivation of Elongation Factor 2 (EF-2)", "Direct upregulation of cellular cyclic AMP activity", "Structural destruction of cellular membrane lipids"],
         correctAnswer: 1,
-        explanation: "Diphtheria toxin blocks protein synthesis by adding an ADP-ribose group to EF-2, leading to cell death and the formation of a pseudomembrane in the throat."
+        explanation: "Diphtheria toxin blocks protein synthesis by adding an ADP-ribose group to EF-2, leading to cell death and pseudomembrane formation in the throat."
     },
     {
         subject: "Microbiology",
@@ -1553,8 +2043,78 @@ const questionDatabase = [
         correctAnswer: 1,
         explanation: "Giardia lamblia trophozoites feature a pear-shaped look with multiple flagella that generate a unique, tumbling 'falling leaf' movement pattern."
     },
+    {
+        subject: "Microbiology",
+        questionText: "Which selective culture medium is explicitly designed to support the growth and identification of Vibrio cholerae?",
+        options: ["TCBS Agar (Thiosulfate Citrate Bile Salts Sucrose)", "Lowenstein-Jensen medium", "MacConkey agar sheets", "Chocolate blood media layout"],
+        correctAnswer: 0,
+        explanation: "TCBS agar is highly alkaline, which selectivly promotes Vibrio growth into distinct yellow, sucrose-fermenting colonies."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "What structural configuration component acts as the mandatory target matching standard Gram staining mechanics?",
+        options: ["The thickness density of the internal peptidoglycan cell wall layer", "The presence of transmembrane drug efflux channels", "Outer lipopolysaccharide coat thickness scale", "Nuclear chromosome bundle shapes"],
+        correctAnswer: 0,
+        explanation: "Gram-positive bacteria feature a thick, cross-linked peptidoglycan cell wall layer that permanently traps the crystal violet-iodine complex."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The presence of a diagnostic 'medusa head' colony morphology on nutrient agar plates is highly pathognomonic for:",
+        options: ["Clostridium tetani filaments", "Bacillus anthracis", "Pseudomonas aeruginosa sheets", "Proteus mirabilis swarms"],
+        correctAnswer: 1,
+        explanation: "Bacillus anthracis forms wavy, parallel strands of non-hemolytic colonies that look like a classic Medusa head under magnification."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which specific DNA virus carries its genomic material encoded as a unique, partially double-stranded circular map?",
+        options: ["Herpes simplex virus", "Hepatitis B Virus (HBV)", "Adenovirus lines", "Parvovirus B19 configurations"],
+        correctAnswer: 1,
+        explanation: "Hepatitis B is a hepadnavirus featuring a unique partially double-stranded circular DNA setup that replicates via an RNA intermediate."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The development of a classic, painless 'hard chancre' ulcer base marks the primary stage of infection from:",
+        options: ["Haemophilus ducreyi soft chancres", "Treponema pallidum (Syphilis)", "Klebsiella granulomatis tracking", "Chlamydia trachomatis L2 serovars"],
+        correctAnswer: 1,
+        explanation: "Primary syphilis presents with an isolated, completely painless indurated hard chancre ulcer at the inoculation site."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which fungal pathogen is highly rich in a thick, mucopolysaccharide capsule shell that stains a brilliant pink under Mucicarmine evaluation?",
+        options: ["Candida albicans pseudohyphae", "Cryptococcus neoformans", "Aspergillus fumigatus septate walls", "Histoplasma capsulatum yeast grids"],
+        correctAnswer: 1,
+        explanation: "Cryptococcus neoformans is an encapsulated yeast whose thick carbohydrate shell can be visualized with mucicarmine or India ink."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The unique swimming mechanism known as 'darting motility' under dark-field microscopy defines which waterborne pathogen?",
+        options: ["Escherichia coli coliforms", "Campylobacter jejuni / Vibrio cholerae", "Salmonella typhi flagellar maps", "Shigella dysenteriae arrays"],
+        correctAnswer: 1,
+        explanation: "Vibrio cholerae and Campylobacter jejuni possess a single polar flagellum that generates an aggressive, high-speed darting movement pattern."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "What viral structural element is responsible for causing the classic presentation of epidemic keratoconjunctivitis ('shipyard eye')?",
+        options: ["Coxsackievirus A24 lines", "Adenovirus (Serotypes 8, 19, 37)", "Herpes simplex type 1", "Enterovirus 70 configurations"],
+        correctAnswer: 1,
+        explanation: "Adenovirus serotypes 8, 19, and 37 are highly contagious paths linked to severe, painful epidemic keratoconjunctivitis outbreaks."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which parasitic pathogen is molecularly linked to a high long-term incidence of developing squamous cell carcinoma of the urinary bladder?",
+        options: ["Schistosoma haematobium", "Schistosoma mansoni", "Clonorchis sinensis lines", "Fasciola hepatica profiles"],
+        correctAnswer: 0,
+        explanation: "Chronic egg deposition by Schistosoma haematobium flukes inside the bladder wall drives persistent tissue irritation, triggering squamous metaplasia."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which structural element provides the mechanism for standard 'swarming motility' seen across agar plates?",
+        options: ["Thick polysaccharide capsules", "Peritrichous flagella arrays on Proteus species", "Pili attachments", "Electrophilic cell wall surface changes"],
+        correctAnswer: 1,
+        explanation: "Proteus mirabilis and Proteus vulgaris possess highly active peritrichous flagella that coordinate waves of concentric swarming growth across plates."
+    },
 
-    // --- PSM & BIOSTATISTICS (40 QUESTIONS) ---
+    // --- PSM & BIOSTATISTICS (50 QUESTIONS) ---
     {
         subject: "PSM & Biostatistics",
         questionText: "According to current biomedical waste rules, into which color-coded collection category should hazardous liquid chemical waste be placed?",
@@ -1819,7 +2379,7 @@ const questionDatabase = [
         questionText: "The standard error of the mean (SEM) is mathematically calculated by dividing the standard deviation by what value?",
         options: ["The total population size N", "The square root of the sample size n (√n)", "The absolute dataset range variance", "The degrees of freedom minus 1"],
         correctAnswer: 1,
-        explanation: "SEM equals the standard deviation ($\\\\sigma$) divided by $\\\\sqrt{n}$, reflecting how much the sample mean varies from the true population mean."
+        explanation: "SEM equals the standard deviation ($\sigma$) divided by $\sqrt{n}$, reflecting how much the sample mean varies from the true population mean."
     },
     {
         subject: "PSM & Biostatistics",
@@ -1834,6 +2394,76 @@ const questionDatabase = [
         options: ["Perfect symmetrical bell distribution", "Positively skewed distribution", "Negatively skewed distribution", "Bimodal double peak layout"],
         correctAnswer: 1,
         explanation: "In a positively skewed distribution, a cluster of high-value outliers pulls the tail and the mean toward the right side of the chart."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which public health indexing method calculates structural vector density populations by checking container water setups for Aedes larvae?",
+        options: ["Spleen index", "Breteau Index / House Index", "Bain quotient", "Manson tracking matrix"],
+        correctAnswer: 1,
+        explanation: "The House Index, Container Index, and Breteau Index are entomological metrics used to map Aedes aegypti breeding density to monitor dengue risks."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "What operational definition tracks the unique tracking configuration known as the 'Secondary Attack Rate' (SAR)?",
+        options: ["The total number of deaths among chronic inpatient cases", "The speed of spread of an infection among susceptible family/household contacts", "The percentage of vaccine failures across a district", "The number of vector mutations over a season"],
+        correctAnswer: 1,
+        explanation: "SAR measures infectivity by tracking how many new cases develop among close contacts within a incubation window following exposure to a primary case."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "The visual display tool known as a 'Kelsey-Seybold' or standard 'Epidemic Curve' charts cases along axes tracking:",
+        options: ["Age groups versus mortality numbers", "Number of cases versus the specific time of symptom onset", "Geographic zip codes versus hospital admissions", "Vaccination dosage count versus recovery rates"],
+        correctAnswer: 1,
+        explanation: "An epidemic curve is a histogram plotting the number of incident cases over time, helping identify the outbreak's source type (point source vs. propagated)."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which primary nutrient deficiency inside a localized geographic community is explicitly linked to endemic cretinism and goiter scales?",
+        options: ["Iron", "Iodine", "Vitamin A", "Zinc units"],
+        correctAnswer: 1,
+        explanation: "Severe environmental iodine deficiency restricts thyroid hormone synthesis, triggering compensatory goiter development and neonatal cretinism."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Under current WHO definitions, a maternal death is one that occurs during pregnancy or within how many days of termination?",
+        options: ["28 days", "42 days", "60 days", "90 days"],
+        correctAnswer: 1,
+        explanation: "Maternal mortality tracks deaths from pregnancy-related causes occurring during gestation or within 42 days (6 weeks) of delivery."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which type of evaluation tracking curve is explicitly constructed to evaluate the matching predictive value parameters of an diagnostic tool across multiple cut-off points?",
+        options: ["Kaplan-Meier survival curve", "Receiver Operating Characteristic (ROC) curve", "Forest plot diagram", "Funnel plot matrix"],
+        correctAnswer: 1,
+        explanation: "An ROC curve plots true positive rates (sensitivity) against false positive rates (1-specificity) to help identify the optimal cutoff threshold for a test."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "The unique mathematical concept known as the 'Power of a statistical study' is represented by which equation notation?",
+        options: ["Alpha error value", "1 minus Beta ($1 - \\beta$)", "Beta error value proper", "1 minus Alpha ($1 - \\alpha$)"],
+        correctAnswer: 1,
+        explanation: "The power of a study ($1 - \\beta$) calculates the probability of correctly rejecting a false null hypothesis, successfully finding an effect if it truly exists."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which parametric statistical significance test handles evaluations checking the variance differences between three or more separate mean datasets?",
+        options: ["Unpaired Student's t-test", "Paired Student's t-test", "Analysis of Variance (ANOVA)", "Wilcoxon signed-rank check"],
+        correctAnswer: 2,
+        explanation: "ANOVA evaluates variance differences across three or more independent groups to see if their means differ significantly."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "The tracking variable known as the 'Incubation period threshold' defines the temporal window spanning from:",
+        options: ["The onset of symptoms to the time of full recovery", "The time of pathogen exposure/entry to the first appearance of clinical symptoms", "The onset of symptoms to peak infectivity", "The time of diagnosis to the initiation of therapy"],
+        correctAnswer: 1,
+        explanation: "The incubation period marks the silent interval between initial exposure to a pathogen and the emergence of diagnostic clinical signs."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which tracking framework focuses on continuous, active case detection loops across communities rather than waiting for regular voluntary clinical reporting?",
+        options: ["Passive surveillance", "Active surveillance", "Sentinel surveillance matrices", "Syndromic monitoring tracks"],
+        correctAnswer: 1,
+        explanation: "Active surveillance involves health workers actively reaching out to communities or labs to locate cases, yielding highly complete tracking data."
     }
 ];
 
@@ -1851,7 +2481,6 @@ function setFocus(focusType) {
     document.querySelectorAll('.focus-btn').forEach(btn => {
         btn.className = "focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700";
     });
-    // Visual selector matching fix
     let activeId = focusType === "PSM & Biostatistics" ? "focus-PSM-Biostatistics" : `focus-${focusType}`;
     document.getElementById(activeId).className = "focus-btn py-3 px-4 rounded-xl border-2 text-sm font-bold border-blue-600 bg-blue-50 text-blue-700";
 }
