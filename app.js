@@ -275,7 +275,7 @@ const questionDatabase = [
     },
     {
         subject: "Pathology",
-        questionText: "A 30-year-old woman presenting with high TSH and anemia is treated with folate. Her anemia improves but neurological symptoms worsen. What is the mechanism?",
+        questionText: "A 30-year-old woman presenting with thyroid swelling and high TSH is treated with folate. Her anemia improves but neurological symptoms worsen. What is the mechanism?",
         options: ["Folate was completely blocked from intestinal absorption channels", "An unmasked pyridoxine co-factor structural deficiency occurred", "Folate therapy drove rapid consumption of remaining Vitamin B12 stores, worsening spinal cord subacute degeneration", "Central nervous system folate reductase fields failed to respond"],
         correctAnswer: 2,
         explanation: "Folate administration bypasses the folate trap to fix megaloblastic anemia but depletes cobalamin reserves, accelerating neurological decline."
@@ -827,7 +827,7 @@ function setSize(sizeVal) {
     document.getElementById(`size-${sizeVal}`).classList.add('border-blue-600', 'bg-blue-50', 'text-blue-700');
 }
 
-// THE SHUFFLING ENGINE
+// THE SHUFFLING ENGINE - CORRECTED FOR TRUE DYNAMIC MAX SCALING
 function startExam() {
     let filteredList = questionDatabase;
     if (currentFocus !== "All") {
@@ -839,15 +839,24 @@ function startExam() {
         return;
     }
 
+    // 1. Perform authentic random Fisher-Yates shuffle array routine
     let pool = [...filteredList];
     for (let i = pool.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [pool[i], pool[j]] = [pool[j], pool[i]];
     }
 
-    let targetSize = currentSize === "Max" ? pool.length : parseInt(currentSize);
-    activeExamSheet = pool.slice(0, Math.min(targetSize, pool.length));
+    // 2. Clear size boundary limitations: If 'Max', use absolute length of the pool dynamically
+    let targetSize;
+    if (currentSize === "Max") {
+        targetSize = pool.length;
+    } else {
+        targetSize = Math.min(parseInt(currentSize), pool.length);
+    }
+    
+    activeExamSheet = pool.slice(0, targetSize);
 
+    // Reset runtime counters
     currentIndex = 0;
     score = 0;
     
