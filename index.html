@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG NEET Medical Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-weight/6.4.0/css/all.min.css">
+    <style>
+        .option-card { transition: all 0.2s ease; }
+        .progress-ring__circle { transition: stroke-dashoffset 0.35s; transform: rotate(-90deg); transform-origin: 50% 50%; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col items-center py-6 px-4">
+
+    <div id="app-container" class="w-full max-w-2xl bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8 mt-4">
+        
+        <div id="dashboard-view" class="space-y-8">
+            <div class="text-center space-y-2">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl text-3xl mb-2">🩺</div>
+                <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight">PG NEET Medical Pro</h1>
+                <p class="text-gray-500 text-sm max-w-md mx-auto">Compile a completely randomized high-yield board review simulation from past year question papers.</p>
+            </div>
+
+            <div class="space-y-3">
+                <label class="block text-xs font-bold uppercase tracking-wider text-gray-400">Select Subject Focus</label>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <button onclick="setFocus('All')" id="focus-All" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-blue-600 bg-blue-50 text-blue-700">All Subjects</button>
+                    <button onclick="setFocus('Anatomy')" id="focus-Anatomy" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Anatomy</button>
+                    <button onclick="setFocus('Biochemistry')" id="focus-Biochemistry" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Biochemistry</button>
+                    <button onclick="setFocus('Pathology')" id="focus-Pathology" class="focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Pathology</button>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <label class="block text-xs font-bold uppercase tracking-wider text-gray-400">Number of Questions</label>
+                <div class="grid grid-cols-4 gap-3">
+                    <button onclick="setSize(10)" id="size-10" class="size-btn py-3 px-2 rounded-xl border-2 text-sm font-semibold border-blue-600 bg-blue-50 text-blue-700">10</button>
+                    <button onclick="setSize(25)" id="size-25" class="size-btn py-3 px-2 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">25</button>
+                    <button onclick="setSize(50)" id="size-50" class="size-btn py-3 px-2 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">50</button>
+                    <button onclick="setSize('Max')" id="size-Max" class="size-btn py-3 px-2 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700">Max</button>
+                </div>
+            </div>
+
+            <button onclick="startExam()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-md transition text-center block text-lg">
+                Start Exam Framework
+            </button>
+        </div>
+
+        <div id="quiz-view" class="hidden space-y-6">
+            <div class="flex justify-between items-center pb-4 border-b border-gray-100">
+                <div class="text-sm font-bold text-gray-500">
+                    <span id="current-q-num">1</span> / <span id="total-q-num">10</span>
+                </div>
+                <div id="subject-tag" class="px-3 py-1 bg-gray-100 text-gray-600 text-xs font-bold uppercase tracking-wider rounded-md">
+                    ANATOMY
+                </div>
+                <div class="text-sm font-bold text-green-600">
+                    Score: <span id="live-score">0</span>
+                </div>
+            </div>
+
+            <div id="question-text" class="text-lg font-bold leading-relaxed text-gray-900 pt-2">
+                Loading clinical board snippet vignette...
+            </div>
+
+            <div id="options-container" class="space-y-3 pt-2">
+                </div>
+
+            <div id="explanation-box" class="hidden bg-gray-50 border border-gray-200 rounded-xl p-4 mt-4 space-y-1">
+                <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider">Clinical Rationale</h4>
+                <p id="explanation-text" class="text-sm leading-relaxed text-gray-700"></p>
+            </div>
+
+            <div class="pt-4 flex justify-end">
+                <button id="next-btn" onclick="nextQuestion()" disabled class="bg-gray-300 text-gray-500 font-bold py-3 px-6 rounded-xl transition flex items-center gap-2 cursor-not-allowed">
+                    Next Question <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="results-view" class="hidden text-center py-8 space-y-6">
+            <div class="inline-flex items-center justify-center relative w-32 h-32">
+                <svg class="w-full h-full">
+                    <circle class="text-gray-100" stroke-width="8" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64"/>
+                    <circle class="text-green-500 progress-ring__circle" stroke-width="8" stroke-dasharray="326.72" stroke-dashoffset="326.72" stroke-linecap="round" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64" id="score-ring"/>
+                </svg>
+                <div class="absolute text-3xl font-extrabold" id="percentage-text">0%</div>
+            </div>
+
+            <div class="space-y-1">
+                <h2 class="text-2xl font-black text-gray-900">Session Complete!</h2>
+                <p class="text-gray-500 text-sm">Your final performance metric: <span id="final-score-raw" class="font-bold text-gray-700">0/0</span></p>
+            </div>
+
+            <p id="feedback-message" class="text-gray-600 font-medium max-w-sm mx-auto px-4"></p>
+
+            <button onclick="returnToDashboard()" class="w-full bg-gray-900 hover:bg-black text-white font-bold py-4 px-6 rounded-xl shadow transition">
+                Take Another Review
+            </button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
