@@ -1,5 +1,6 @@
-// MASTER PYQ COLLECTION MAPPED BY SUBJECT FIELDS
+// MASTER PYQ COLLECTION MAPPED BY SUBJECT FIELDS - 210 ACTIVE ENTRIES
 const questionDatabase = [
+    // --- ANATOMY (30 QUESTIONS) ---
     {
         subject: "Anatomy",
         questionText: "Upward movement of the thyroid gland during swallowing is primarily prevented due to the structural attachment of which of the following?",
@@ -71,6 +72,148 @@ const questionDatabase = [
         explanation: "The left inferior frontal gyrus contains Broca's area, which controls motor programming outputs for expressive speech."
     },
     {
+        subject: "Anatomy",
+        questionText: "Which structure forms the primary boundary of the superior inguinal ring?",
+        options: ["External oblique aponeurosis", "Transversalis fascia", "Inguinal ligament arc", "Conjoint tendon fibres"],
+        correctAnswer: 0,
+        explanation: "The superficial or superior inguinal ring is a triangular gap cleft directly inside the aponeurosis fibers of the external oblique muscle structure."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Injury to the deep peroneal nerve will directly present as a failure to perform which movement?",
+        options: ["Ankle eversion", "Ankle plantarflexion", "Ankle dorsiflexion", "Great toe adduction"],
+        correctAnswer: 2,
+        explanation: "The deep peroneal nerve supplies the anterior compartment leg muscles, meaning an injury results in classical foot drop due to a loss of dorsiflexion."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which cell population inside the gastric mucosa is explicitly responsible for secreting intrinsic factor?",
+        options: ["Chief cells", "Parietal cells", "G cells", "Mucous neck cells"],
+        correctAnswer: 1,
+        explanation: "Parietal or oxyntic cells localized across the gastric fundus pump out hydrochloric acid alongside intrinsic factor molecules."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The clear fluid content inside the cavernous sinus drains directly back into which venous conduit network?",
+        options: ["Superior sagittal sinus", "Inferior petrosal sinus", "Straight sinus channels", "Sigmoid sinus conduits"],
+        correctAnswer: 1,
+        explanation: "The cavernous sinus discharges its contents caudally into the superior and inferior petrosal sinuses, which later meet the internal jugular matrix."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which embryological structure forms the primary developmental layout for the definitive adult urinary bladder trigone?",
+        options: ["Allantois stalk", "Mesonephric ducts", "Paramesonephric channels", "Cloacal entodermal floor"],
+        correctAnswer: 1,
+        explanation: "While the bladder mass arises from the urogenital sinus, the specialized trigone lining is derived from absorbed mesonephric duct structures."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The right testicular vein empties its blood volume directly into which larger vascular structure?",
+        options: ["Right renal vein", "Inferior Vena Cava (IVC)", "Right internal iliac channel", "Hepatic portal vein system"],
+        correctAnswer: 1,
+        explanation: "The right testicular vein dumps directly at an angle into the front aspect of the IVC, whereas the left testicular vein travels vertically up into the left renal vein."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Surgical access to the lesser sac of the peritoneal cavity behind the stomach is achieved by dividing which membrane?",
+        options: ["Falciform ligament", "Gastrocolic ligament", "Phrenicolic fold", "Coronary ligament margins"],
+        correctAnswer: 1,
+        explanation: "Incising across the gastrocolic ligament offers optimal structural visibility and space inside the lesser sac footprint during upper GI exploration."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which structure marks the true anatomical dividing line between the upper and lower respiratory tracts?",
+        options: ["Epiglottis margins", "Vocal folds (True vocal cords)", "Cricoid cartilage base ring", "Carina bifurcations"],
+        correctAnswer: 1,
+        explanation: "The vocal folds inside the larynx serve as the traditional anatomical threshold separating upper respiratory structures from the lower tracheobronchial tree."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which intrinsic hand muscle performs abduction of the fingers away from the central axis of the third digit?",
+        options: ["Palmar interossei", "Dorsal interossei", "Lumbrical arrays", "Opponens digiti minimi"],
+        correctAnswer: 1,
+        explanation: "Dorsal interossei abduct the fingers (mnemonic: DAB), whereas palmar interossei adduct the fingers back together (mnemonic: PAD)."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which cranial nerve travels out of the skull base via the foramen rotundum?",
+        options: ["Ophthalmic nerve V1", "Maxillary nerve V2", "Mandibular nerve V3", "Abducens nerve CN VI"],
+        correctAnswer: 1,
+        explanation: "The maxillary division of the trigeminal nerve (V2) passes through the foramen rotundum, while V3 traverses via the foramen ovale."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The coronary sinus runs directly inside which specific structural groove of the myocardium?",
+        options: ["Anterior interventricular sulcus", "Posterior interventricular sulcus", "Coronary sulcus (Atrioventricular groove)", "Terminal sulcus zone"],
+        correctAnswer: 2,
+        explanation: "The coronary sinus occupies the posterior part of the coronary sulcus, located between the left atrium and left ventricle."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which spinal nerve root layer provides the sensory reflex circuit path for the Achilles deep tendon reflex?",
+        options: ["L4 nerve root", "L5 nerve root", "S1 nerve root", "S2 nerve root"],
+        correctAnswer: 2,
+        explanation: "The ankle jerk deep tendon reflex primarily tests the structural integrity of the S1 spinal cord nerve root segment pathway."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Sensation from the skin over the anatomical angle of the mandible is carried by which nerve pathway?",
+        options: ["Mandibular nerve V3 branch", "Great auricular nerve (C2, C3)", "Facial nerve marginal mandibular line", "Transverse cervical nerve paths"],
+        correctAnswer: 1,
+        explanation: "The skin overlying the mandibular angle is supplied by the great auricular nerve from the cervical plexus, not the trigeminal V3 branch."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which ligament structure limits or checks hyperextension moves across the lumbar spinal column alignment?",
+        options: ["Ligamentum flavum matrix", "Posterior longitudinal ligament", "Anterior longitudinal ligament", "Supraspinous track line"],
+        correctAnswer: 2,
+        explanation: "The anterior longitudinal ligament is a broad, strong band that fixes the anterior aspects of the vertebral bodies, preventing hyperextension."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The lymphatic drainage pathways from the lateral skin margins of the foot follow the short saphenous line into which nodes?",
+        options: ["Superficial inguinal lymph nodes", "Deep inguinal nodes", "Popliteal lymph nodes", "External iliac node systems"],
+        correctAnswer: 2,
+        explanation: "Lymph structures running along the lateral aspect of the foot accompany the short saphenous vein to dump into the popliteal nodes."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The specialized macula densa cellular sensor layout is found within which renal structure?",
+        options: ["Proximal Convoluted Tubule", "Thick Descending Limb", "Distal Convoluted Tubule", "Collecting duct floor"],
+        correctAnswer: 2,
+        explanation: "The macula densa consists of specialized, crowded cells located within the wall of the distal convoluted tubule right where it contacts the glomerulus."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which muscle forms the primary anterior boundary wall layout for the axillary fossa?",
+        options: ["Pectoralis major", "Latissimus dorsi", "Subscapularis", "Serratus anterior"],
+        correctAnswer: 0,
+        explanation: "The pectoralis major muscle, along with the underlying pectoralis minor, forms the anterior fold boundary layout of the axillary vault."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which component represents a true derivatives layout from the embryological midgut tract axis?",
+        options: ["Stomach and proximal duodenum", "Ascending colon and proximal two-thirds of transverse colon", "Descending colon and sigmoid loop", "Rectum floor canal segment"],
+        correctAnswer: 1,
+        explanation: "The midgut framework extends from the lower duodenum all the way to the junction of the proximal two-thirds and distal one-third of the transverse colon."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "The middle meningeal artery represents a direct vascular branch arising from which vessel line?",
+        options: ["Internal carotid artery", "Maxillary artery branch", "Superficial temporal artery", "Ascending pharyngeal artery"],
+        correctAnswer: 1,
+        explanation: "The middle meningeal artery branches off the first part of the maxillary artery, entering the skull via the foramen spinosum."
+    },
+    {
+        subject: "Anatomy",
+        questionText: "Which ligament anchors the ovary directly to the lateral pelvic wall framework structures?",
+        options: ["Ovarian ligament proper", "Round ligament matrix", "Suspensory ligament of the ovary (Infundibulopelvic)", "Broad ligament base sheets"],
+        correctAnswer: 2,
+        explanation: "The infundibulopelvic or suspensory ligament carries the ovarian artery, vein, and nerve networks from the lateral pelvic wall to the ovary tissue."
+    },
+
+    // --- PHYSIOLOGY (30 QUESTIONS) ---
+    {
         subject: "Physiology",
         questionText: "Where is the highest oxygen concentration present within the fetal circulatory pathway?",
         options: ["Superior Vena Cava (SVC)", "Inferior Vena Cava (IVC)", "Right Ventricle", "Aorta"],
@@ -113,13 +256,6 @@ const questionDatabase = [
         explanation: "Demyelination within the CNS disrupts fast saltatory conduction, slowing or completely blocking neural pathway transmission."
     },
     {
-        subject: "Biochemistry",
-        questionText: "A patient diagnosed with deep vein thrombosis (DVT) and pulmonary embolism is initiated on Warfarin therapy. Which of the following clotting factors will exhibit a decreased concentration of γ-carboxyglutamate residues?",
-        options: ["Factor 11", "Factor 2", "Tissue factor", "Factor 5"],
-        correctAnswer: 1,
-        explanation: "Warfarin acts as a Vitamin K antagonist, directly inhibiting the enzyme-mediated modification of factors II, VII, IX, and X."
-    },
-    {
         subject: "Physiology",
         questionText: "Why is donor blood stored in Citrate-Phosphate-Dextrose (CPD) superior for hypoxic recipients compared to Acid-Citrate-Dextrose (ACD)?",
         options: ["It features a lower overall P50 value", "It runs more acidic inside serum", "The rate of fall in 2,3-DPG is slower", "It increases pure oxygen affinity parameters"],
@@ -141,18 +277,167 @@ const questionDatabase = [
         explanation: "Cerebral circulation uses auto-regulatory adjustments to stay flat across systemic pressures from 60 to 150 mmHg."
     },
     {
-        subject: "Biochemistry",
-        questionText: "By what primary molecular step does the hormone hepcidin regulate systemic iron storage?",
-        options: ["Inhibiting absorption of cobalamin", "Blocking the transfer of iron into enterocytes/macrophages", "Halting folic acid synthesis pathways", "Deactivating respiratory oxidase activity"],
-        correctAnswer: 1,
-        explanation: "Hepcidin binds to the iron exporter ferroportin, causing its breakdown and trapping iron inside cells."
-    },
-    {
         subject: "Physiology",
         questionText: "Which laboratory technique is uniquely designed to track real-time current flows crossing a single isolated ion channel?",
         options: ["Patch clamp", "Voltage clamp", "Iontophoresis", "Galvanometry"],
         correctAnswer: 0,
         explanation: "The patch-clamp technique uses an ultra-fine pipette tip to isolate and record individual cell membrane ion channel openings."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What mechanism is primarily responsible for the rapid repolarization phase of a neuronal action potential?",
+        options: ["Influx of sodium ions", "Efflux of potassium ions", "Influx of calcium ions", "Active pumping via Na+/K+ ATPase"],
+        correctAnswer: 1,
+        explanation: "The opening of voltage-gated potassium channels combined with the closing of sodium channels lets potassium rush out, resetting the voltage."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which hormone uses a secondary messenger pathway centered on cyclic GMP (cGMP) generation?",
+        options: ["Atrial Natriuretic Peptide (ANP)", "Epinephrine", "Glucagon", "Insulin properties"],
+        correctAnswer: 0,
+        explanation: "ANP binds directly to receptor guanylyl cyclases, increasing cyclic GMP levels to drive systemic vascular smooth muscle relaxation."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which respiratory parameter cannot be determined using standard routine spirometry evaluations?",
+        options: ["Vital Capacity (VC)", "Inspiratory Reserve Volume (IRV)", "Functional Residual Capacity (FRC)", "Tidal Volume (TV)"],
+        correctAnswer: 2,
+        explanation: "Spirometry cannot track gas remaining behind in the lungs after a full expiration. FRC must be measured via helium dilution methods."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What is the primary action of the hormone secretin when released into the bloodstream?",
+        options: ["Stimulating enzyme-rich pancreatic enzyme output", "Stimulating watery, bicarbonate-rich pancreatic secretions", "Inducing rapid contraction of gallbladder muscles", "Upregulating acid pump generation in gastric tissue"],
+        correctAnswer: 1,
+        explanation: "Secretin acts on pancreatic ductal cells, triggering the release of an aqueous bicarbonate fluid to neutralize incoming duodenal acid."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The absolute refractory period of cardiac muscle cells is prolonged to match which cellular phase?",
+        options: ["Rapid depolarization spike", "The plateau phase (Phase 2)", "The late repolarization tail", "Resting state stability window"],
+        correctAnswer: 1,
+        explanation: "The Phase 2 plateau phase is maintained by slow L-type calcium channel currents, preventing sustained tetanic muscle spasms."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Surfactant acts to reduce alveolar surface tension, its functional molecular layout is dominated by:",
+        options: ["Sphingomyelin arrays", "Dipalmitoylphosphatidylcholine (DPPC)", "Phosphatidylglycerol units", "Glycoprotein capsule fibers"],
+        correctAnswer: 1,
+        explanation: "DPPC is the key phospholipid component within surfactant that breaks up water cohesion forces to prevent lung collapse."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which sound frequency sensor grid zone inside the cochlea registers high-frequency sound inputs?",
+        options: ["Apex near helicotrema structures", "The base of the basilar membrane", "The intermediate midpoint curve", "Tectorial membrane edge elements"],
+        correctAnswer: 1,
+        explanation: "The basilar membrane base is narrow and stiff, making it resonate selectively to fast, high-frequency sound waves."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What is the primary physiologic response of the peripheral arterial chemoreceptors to severe arterial hypoxia?",
+        options: ["Decreasing core ventilation drives", "Profound increase in alveolar ventilation rate", "Suppression of sympathetic output vectors", "Slowing cardiac pacemaker outputs"],
+        correctAnswer: 1,
+        explanation: "When partial pressures of oxygen slide below 60 mmHg, glomus cells in the carotid bodies trigger an aggressive hyperventilation reflex."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which area of the brain acts as the primary central controller coordinating core body temperature auto-regulation?",
+        options: ["Medulla oblongata centers", "Preoptic area of the anterior hypothalamus", "Posterior pituitary nodes", "Cerebellar vermis structures"],
+        correctAnswer: 1,
+        explanation: "The anterior hypothalamus processes temperature inputs from blood and skin sensors, triggering shivering or sweating mechanisms as needed."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What direct vascular pressure transformation changes occur across the systemic capillary bed following localized arteriolar constriction?",
+        options: ["Capillary hydrostatic pressure rises significantly", "Capillary hydrostatic pressure falls down", "Interstitial fluid volume increases dynamically", "Oncotic filtration pressures double value balances"],
+        correctAnswer: 1,
+        explanation: "Constricting the upstream arterioles limits downstream blood flow, causing hydrostatic pressure inside the capillary network to drop."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which tracking metric matches the normal baseline filtration fraction ratio within healthy human kidneys?",
+        options: ["10%", "20%", "30%", "50%"],
+        correctAnswer: 1,
+        explanation: "The filtration fraction represents GFR divided by Renal Plasma Flow ($125/650 \\approx 20\\%$ of plasma fluid gets filtered)."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which mechanism facilitates the cellular reabsorption of free glucose molecules across the apical brush border of proximal convoluted tubule cells?",
+        options: ["Simple passive diffusion tracks", "Facilitated GLUT2 carrier pathways", "Secondary active transport via SGLT proteins", "Primary active transport utilizing ATP energy"],
+        correctAnswer: 2,
+        explanation: "SGLT symporters leverage the favorable inward sodium gradient maintained by the basal pump to pull glucose molecules into the cell."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The blind spot region across the human retina grid map lacks which specific structures?",
+        options: ["Amacrine cells", "Blood vessels", "Photoreceptor cells (Rods and Cones)", "Ganglion cell axons layer"],
+        correctAnswer: 2,
+        explanation: "The optic disc area serves as the exit point for the optic nerve vector, meaning it completely lacks photoreceptors and cannot sense light."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What functional changes occur to the oxygen-hemoglobin dissociation curve when blood $CO_2$ levels rise rapidly?",
+        options: ["Leftward shift along with a lower P50", "Rightward shift along with an elevated P50 value", "The curve flattens completely into a linear line", "No change to the overall curve orientation shape"],
+        correctAnswer: 1,
+        explanation: "Under the Bohr effect, higher $CO_2$ and acid levels bind to hemoglobin, reducing its affinity for oxygen and shifting the curve rightward."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which statement describes the mechanical functions of the inner ear stapedius muscle reflex activation?",
+        options: ["It amplifies low-frequency quiet sounds", "It dampens the transmission of low-frequency loud sounds", "It increases total endolymph production cycles", "It alters the curvature of the tympanic membrane"],
+        correctAnswer: 1,
+        explanation: "Loud sounds prompt reflex contractions of the stapedius muscle, pulling the stapes back to shield the fragile inner ear from damage."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which structural element forms the mandatory baseline channel for generating the slow pacemaker potential in SA node tissue cells?",
+        options: ["Voltage-gated fast sodium channels", "Funny current ($I_f$) sodium-potassium channels", "L-type calcium channel arrays", "Delayed rectifier potassium currents"],
+        correctAnswer: 1,
+        explanation: " Pacemaker cells rely on funny current channels ($I_f$) that slowly leak sodium inward at hyperpolarized voltages, driving the cell toward threshold."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What direct metabolic effect does an elevated level of circulating parathyroid hormone (PTH) have on renal tubules?",
+        options: ["Inhibits calcium reabsorption patterns", "Inhibits phosphate reabsorption within the proximal convoluted tubule", "Suppresses active Vitamin D activation enzymes", "Promotes massive bicarbonate reabsorption cycles"],
+        correctAnswer: 1,
+        explanation: "PTH prevents phosphate retention by downregulating sodium-phosphate cotransporters in the proximal tubule, promoting phosphate excretion."
+    },
+    {
+        subject: "Physiology",
+        questionText: "The selective activation of Golgi tendon organs triggers what reflex response inside the muscle?",
+        options: ["Autogenic excitation muscle clamping", "Autogenic inhibition relaxation loops", "Reciprocal activation of antagonist groups", "Continuous polysynaptic cloning pathways"],
+        correctAnswer: 1,
+        explanation: "When muscle tension spikes dangerously, the Golgi tendon organ fires signals that inhibit alpha motor neurons, causing the muscle to relax to prevent tears."
+    },
+    {
+        subject: "Physiology",
+        questionText: "Which substance serves as the primary neurotransmitter molecule released by postganglionic sympathetic fibers supplying sweat glands?",
+        options: ["Norepinephrine", "Acetylcholine", "Dopamine", "Serotonin"],
+        correctAnswer: 1,
+        explanation: "Sympathetic pathways typically use norepinephrine, but postganglionic fibers targeting sweat glands are cholinergic, using acetylcholine."
+    },
+    {
+        subject: "Physiology",
+        questionText: "What primary physiologic function does aldosterone perform inside the principal cells of the late distal tubule and collecting ducts?",
+        options: ["Inhibiting sodium reabsorption tracks", "Upregulating apical epithelial sodium channels (ENaC) and basal Na+/K+ pumps", "Directly stimulating water movement through aquaporin-2 insert tracks", "Halting hydrogen ion excretion parameters"],
+        correctAnswer: 1,
+        explanation: "Aldosterone works through nuclear transcription networks to add more ENaC channels and sodium pumps, boosting sodium retention and potassium loss."
+    },
+
+    // --- BIOCHEMISTRY (30 QUESTIONS) ---
+    {
+        subject: "Biochemistry",
+        questionText: "A patient diagnosed with deep vein thrombosis (DVT) and pulmonary embolism is initiated on Warfarin therapy. Which of the following clotting factors will exhibit a decreased concentration of γ-carboxyglutamate residues?",
+        options: ["Factor 11", "Factor 2", "Tissue factor", "Factor 5"],
+        correctAnswer: 1,
+        explanation: "Warfarin acts as a Vitamin K antagonist, directly inhibiting the enzyme-mediated modification of factors II, VII, IX, and X."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "By what primary molecular step does the hormone hepcidin regulate systemic iron storage?",
+        options: ["Inhibiting absorption of cobalamin", "Blocking the transfer of iron into enterocytes/macrophages", "Halting folic acid synthesis pathways", "Deactivating respiratory oxidase activity"],
+        correctAnswer: 1,
+        explanation: "Hepcidin binds to the iron exporter ferroportin, causing its breakdown and trapping iron inside cells."
     },
     {
         subject: "Biochemistry",
@@ -176,13 +461,6 @@ const questionDatabase = [
         explanation: "A low insulin-to-glucagon ratio characterizes fasting states, activating key gluconeogenic pathways via glucose-6-phosphatase."
     },
     {
-        subject: "Pathology",
-        questionText: "Ochronosis manifests as deep pigment deposition within intervertebral discs and ear cartilage due to systemic accumulation of:",
-        options: ["Homogentisic acid", "Xanthurenate", "Glyoxylate", "Phenylpyruvic intermediate"],
-        correctAnswer: 0,
-        explanation: "Chronic alkaptonuria causes polymer pigments of homogentisic acid to bind selectively to systemic connective tissues."
-    },
-    {
         subject: "Biochemistry",
         questionText: "Total and conjugated fractions of bilirubin inside a serum specimen are quantitatively evaluated using the:",
         options: ["Van den Bergh reaction", "Ehrlich's Reaction", "Schlesinger's Reaction", "Fouchet's Reaction"],
@@ -195,13 +473,6 @@ const questionDatabase = [
         options: ["23%", "25%", "46%", "22%"],
         correctAnswer: 3,
         explanation: "By Chargaff's rules, A=T (28%+28%=56%). The remainder is G+C (44%), split evenly, giving 22% Cytosine."
-    },
-    {
-        subject: "Ophthalmology",
-        questionText: "High therapeutic doses of Niacin (Vitamin B3) can provoke which of the following serious ocular complications?",
-        options: ["Optic nerve structural avulsion", "Cystoid macular edema (CME)", "Nuclear sclerotic cataract development", "Exudative retinal detachment"],
-        correctAnswer: 1,
-        explanation: "Niacin intake exceeding 3 grams per day can induce reversible cystoid macular edema changes in the central macula."
     },
     {
         subject: "Biochemistry",
@@ -232,13 +503,6 @@ const questionDatabase = [
         explanation: "Nitric Oxide Synthase converts L-arginine into citrulline and free nitric oxide gas molecules."
     },
     {
-        subject: "Pharmacology",
-        questionText: "What changes occur to the kinetic parameters Km and Vmax in the presence of a non-competitive enzyme antagonist?",
-        options: ["Km remains unchanged; Vmax decreases", "Km increases; Vmax decreases", "Km decreases; Vmax increases", "Km increases; Vmax increases"],
-        correctAnswer: 0,
-        explanation: "Non-competitive inhibitors do not affect substrate binding affinity (Km) but reduce structural velocity output capacity (Vmax)."
-    },
-    {
         subject: "Biochemistry",
         questionText: "Werner syndrome presents with accelerated premature systemic aging due to a genetic defect affecting which enzyme class?",
         options: ["Telomerase complexes", "Caspase arrays", "DNA topoisomerase", "DNA helicase"],
@@ -253,18 +517,132 @@ const questionDatabase = [
         explanation: "Lignin forms a rigid polymer structure within plant cell walls that is completely resistant to water dissolution."
     },
     {
-        subject: "Medicine",
-        questionText: "According to NCEP-ATP III diagnostic criteria, which parameter is NOT included in the core definition of Metabolic Syndrome?",
-        options: ["High LDL", "Hypertriglyceridemia", "Central Obesity", "Elevated blood pressure measurements"],
-        correctAnswer: 0,
-        explanation: "Metabolic syndrome tracks high fasting glucose, low HDL, elevated triglycerides, high BP, and waist sizing, but excludes raw LDL metrics."
-    },
-    {
         subject: "Biochemistry",
         questionText: "What molecular mechanism allows for the tissue-specific expression of apoprotein B-48 inside human intestinal cells?",
         options: ["DNA structural rearrangement", "Alternative splicing of pre-mRNA transcripts", "RNA editing", "Translational target block suppression"],
         correctAnswer: 2,
         explanation: "Cytidine deaminase converts a CAA sense codon to a premature UAA stop codon in the intestine via post-transcriptional RNA editing."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which clinical condition is driven by a primary structural deficiency of the enzyme Glucose-6-Phosphatase?",
+        options: ["Von Gierke disease (GSD type I)", "Pompe disease (GSD type II)", "Cori disease (GSD type III)", "McArdle disease (GSD type V)"],
+        correctAnswer: 0,
+        explanation: "Von Gierke disease involves a deficiency in glucose-6-phosphatase, preventing glycogen breakdown and causing severe fasting hypoglycemia."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which regulatory enzyme functions as the absolute rate-limiting controller for the human cholesterol synthesis pathway?",
+        options: ["Thiolase structures", "HMG-CoA synthase", "HMG-CoA reductase", "Squalene oxidase complex"],
+        correctAnswer: 2,
+        explanation: "HMG-CoA Reductase converts HMG-CoA into mevalonate, serving as the primary target blocked by statin therapies."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which enzyme is deficient in classic galactosemia?",
+        options: ["Galactokinase", "Galactose-1-phosphate uridyltransferase", "UDP-galactose-4-epimerase", "Phosphoglucomutase options"],
+        correctAnswer: 1,
+        explanation: "A defect in Galactose-1-phosphate uridyltransferase (GALT) causes severe galactosemia, leading to neonatal cataracts and liver damage."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "The breakdown of fatty acids occurs inside mitochondria via beta-oxidation. Long-chain fatty fatty acids are carried across the membrane by:",
+        options: ["Citrate shuttle devices", "Malate-aspartate shuttle loop", "Carnitine shuttle framework", "Glycerol phosphate link system"],
+        correctAnswer: 2,
+        explanation: "The carnitine palmitoyltransferase system is necessary to transport long-chain fatty acids into the mitochondrial matrix for breakdown."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which vitamin functions as a mandatory co-enzyme during the transamination reactions of amino acid metabolism?",
+        options: ["Thiamine (Vitamin B1)", "Riboflavin (Vitamin B2)", "Pyridoxal phosphate (Vitamin B6)", "Biotin complexes"],
+        correctAnswer: 2,
+        explanation: "Pyridoxal Phosphate (PLP), derived from Vitamin B6, serves as the vital co-enzyme for transaminases like ALT and AST."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "A lack of which enzyme causes Lesch-Nyhan syndrome?",
+        options: ["PRPP synthetase arrays", "Hypoxanthine-guanine phosphoribosyltransferase (HGPRT)", "Adenosine deaminase complexes", "Xanthine oxidase profiles"],
+        correctAnswer: 1,
+        explanation: "HGPRT deficiency disrupts the purine salvage pathway, forcing purines into breakdown loops that produce severe uric acid spikes and self-mutilating behaviors."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which amino acid serves as the direct precursor for the synthesis of the skin pigment melanin?",
+        options: ["Tryptophan", "Tyrosine", "Phenylalanine", "Histidine"],
+        correctAnswer: 1,
+        explanation: "Tyrosinase metabolizes L-tyrosine into DOPA and downstream melanin polymers within active melanocytes."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "What biochemical marker displays the highest specificity during lab evaluations for acute pancreatitis?",
+        options: ["Total serum amylase levels", "Serum lipase concentrations", "Alkaline phosphatase activity", "Lactate dehydrogenase levels"],
+        correctAnswer: 1,
+        explanation: "Serum lipase remains elevated longer and exhibits higher clinical specificity for pancreatic auto-digestion than amylase."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which multi-subunit complex inside the inner mitochondrial membrane acts as the primary target blocked by Carbon Monoxide?",
+        options: ["Complex I (NADH dehydrogenase)", "Complex II (Succinate dehydrogenase)", "Complex III (Cytochrome b-c1)", "Complex IV (Cytochrome c oxidase)"],
+        correctAnswer: 3,
+        explanation: "Carbon monoxide and cyanide bind tightly to the ferric iron core of Cytochrome c Oxidase (Complex IV), halting the electron transport chain."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which parameter remains completely unaffected during competitive enzyme inhibition scenarios?",
+        options: ["Apparent Km value shifts", "The absolute Vmax value configuration", "Substrate binding affinity scales", "Michaelis-Menten calculation ratios"],
+        correctAnswer: 1,
+        explanation: "Competitive inhibitors occupy the active site. Increasing the substrate concentration can overcome this block, allowing the reaction to reach its original maximum velocity (Vmax)."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which mineral serves as a mandatory structural cofactor inside the functional antioxidant enzyme Superoxide Dismutase (SOD)?",
+        options: ["Selenium clusters", "Zinc and Copper / Manganese", "Magnesium ions", "Molybdenum elements"],
+        correctAnswer: 1,
+        explanation: "Cytosolic Superoxide Dismutase relies directly on Zinc and Copper ions, whereas the mitochondrial version requires Manganese to neutralize free radicals."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which metabolic compound acts as the mandatory structural entry key linking glycolysis directly to the TCA cycle?",
+        options: ["Oxaloacetate frames", "Acetyl-CoA", "Succinyl-CoA grid link", "Phosphoenolpyruvate structures"],
+        correctAnswer: 1,
+        explanation: "The pyruvate dehydrogenase complex converts glycolysis-derived pyruvate into Acetyl-CoA, which enters the Citric Acid Cycle."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "A classic developmental delay paired with a prominent 'mousy' or musty body odor matches a deficiency in which enzyme?",
+        options: ["Homogentisate oxidase lines", "Phenylalanine hydroxylase", "Tyrosinase structures", "Branched-chain ketoacid decarboxylase"],
+        correctAnswer: 1,
+        explanation: "A lack of Phenylalanine Hydroxylase drives classical Phenylketonuria (PKU), leading to phenylacetate accumulation and a characteristic musty body odor."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which structural apolipoprotein acts as the mandatory activator key for the capillary enzyme Lipoprotein Lipase (LPL)?",
+        options: ["Apo A-I", "Apo B-100", "Apo C-II", "Apo E structures"],
+        correctAnswer: 2,
+        explanation: "Apolipoprotein C-II on chylomicrons and VLDL activates capillary lipoprotein lipase, allowing the release of free fatty acids into tissues."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which secondary structural protein layout is highly rich in parallel hydrogen bonds running along a single single polypeptide chain axis?",
+        options: ["Alpha-helix configuration", "Beta-pleated sheet layout", "Triple helix formations", "Random coil architectures"],
+        correctAnswer: 0,
+        explanation: "The alpha-helix structure is stabilized by hydrogen bonds running down the central cylinder axis between amino acid groups."
+    },
+    {
+        subject: "Biochemistry",
+        questionText: "Which clinical condition is driven by a lack of the purine salvage enzyme Adenosine Deaminase (ADA)?",
+        options: ["Severe Combined Immunodeficiency (SCID)", "Gouty tophaceous arthritis", "Chronic granulomatous disease structures", "Agammaglobulinemia anomalies"],
+        correctAnswer: 0,
+        explanation: "An ADA deficiency leads to the buildup of toxic dATP pools that poison developing T and B lymphocytes, precipitating autosomal recessive SCID."
+    },
+
+    // --- PATHOLOGY (40 QUESTIONS) ---
+    {
+        subject: "Pathology",
+        questionText: "Ochronosis manifests as deep pigment deposition within intervertebral discs and ear cartilage due to systemic accumulation of:",
+        options: ["Homogentisic acid", "Xanthurenate", "Glyoxylate", "Phenylpyruvic intermediate"],
+        correctAnswer: 0,
+        explanation: "Chronic alkaptonuria causes polymer pigments of homogentisic acid to bind selectively to systemic connective tissues."
     },
     {
         subject: "Pathology",
@@ -304,7 +682,7 @@ const questionDatabase = [
     {
         subject: "Pathology",
         questionText: "Diffuse podocyte foot process effacement without significant immune complex deposits is the hallmark of Minimal Change Disease or:",
-        options: ["Membranous glomerulitis", "Segmental glomerulosclerosis", "IgA nephropathy matrices", "Diabetic diffuse glomerulosclerosis"],
+        options: ["Membranous glomerulitis", "Segmental glomerululosclerosis", "IgA nephropathy matrices", "Diabetic diffuse glomerulosclerosis"],
         correctAnswer: 1,
         explanation: "Podocyte foot process effacement seen under electron microscopy underpins structural protein-leak syndromes like focal segmental glomerulosclerosis."
     },
@@ -343,6 +721,204 @@ const questionDatabase = [
         correctAnswer: 3,
         explanation: "Chemotaxis describes targeted, unidirectional cell movement guided along a chemical concentration gradient."
     },
+    {
+        subject: "Pathology",
+        questionText: "A highly specific pathognomonic feature of acute cell injury seen on microscopic inspection of affected tissues is the formation of:",
+        options: ["Fatty change vacuoles", "Plasma membrane blebbing lines", "Mitochondrial amorphous densities", "Nuclear chromatin clumping grids"],
+        correctAnswer: 2,
+        explanation: "Irreversible cell damage is specifically distinguished from reversible damage by the development of dense, amorphous calcium-rich deposits inside the mitochondrial matrix."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which of the following cellular structures plays the absolute primary role in executing targeted program cell death (Apoptosis) pathways?",
+        options: ["Lysosomes", "Mitochondria", "Golgi apparatus complex", "Rough endoplasmic reticulum"],
+        correctAnswer: 1,
+        explanation: "The intrinsic apoptotic pathway is governed entirely by the leakage of Cytochrome C out of the mitochondrial intermembrane space into the cellular cytoplasm."
+    },
+    {
+        subject: "Pathology",
+        questionText: "On an autopsy evaluation of a brain infarcted region, which classic histological type of tissue necrosis is characteristically observed?",
+        options: ["Coagulative necrosis", "Liquefactive necrosis", "Caseous necrosis layout", "Fat saponification necrosis"],
+        correctAnswer: 1,
+        explanation: "Ischemic hypoxic incidents within the central nervous system trigger liquefactive necrosis due to autolytic enzymatic dissolution mechanics."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The deposition of crystalline calcium salts inside dead, degenerated, or dying somatic body tissues while maintaining completely normal serum calcium concentrations describes:",
+        options: ["Metastatic calcification", "Dystrophic calcification", "Calcinosis circumscripta", "Ossification progression matrix"],
+        correctAnswer: 1,
+        explanation: "Dystrophic calcification occurs locally inside non-viable, necrotized structures despite completely normal systemic serum calcium indices."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which clinical subtype of vascular amyloidosis patterns is characterized by a primary systemic distribution profile composed of immunoglobulin light chain fibril structures?",
+        options: ["AA Amyloidosis", "AL Amyloidosis", "ATTR Amyloidosis", "Aβ2M Amyloidosis"],
+        correctAnswer: 1,
+        explanation: "AL amyloidosis tracks a plasma cell monoclonal proliferation state where structured immunoglobulin light chains unfold into beta-pleated sheets."
+    },
+    {
+        subject: "Pathology",
+        questionText: "During an acute localized bacterial infection, which molecular vascular adhesion glycoprotein family directly drives the rolling phase of leukocyte emigration?",
+        options: ["Integrins", "Selectins (E, P, and L-selectins)", "ICAM-1 immunoglobulin superfamily", "PECAM-1 transendothelial channels"],
+        correctAnswer: 1,
+        explanation: "Selectins interact dynamically with sialyl-Lewis X carbohydrate residues on leukocytes to produce the initial slow rolling deceleration profile."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of standard epithelioid histiocytes, Langhans multinucleated giant cells, and a surrounding cuff of lymphocytes on lung biopsy defines:",
+        options: ["Suppurative acute inflammation", "Granulomatous inflammation", "Fibrinous exudative cascade", "Serous interstitial infiltration"],
+        correctAnswer: 1,
+        explanation: "Granulomatous inflammation represents a distinct chronic activation pattern featuring a core group of activated, modified macrophages (epithelioid cells)."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which family of proto-oncogenes functions molecularly by acting as an internal membrane-associated GTP-binding protein switch device?",
+        options: ["MYC family", "RAS family", "HER2/neu lineage", "ABL tyrosine kinase complexes"],
+        correctAnswer: 1,
+        explanation: "The RAS oncogene family switches between an active GTP-bound signaling state and an inactive GDP-bound resting profile to coordinate transcription instructions."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which distinct neoplastic lesion shows the classical presentation of an expansive, concentric 'onion-skin' periosteal reaction layout on knee radiographic analysis?",
+        options: ["Osteosarcoma", "Ewing's sarcoma", "Chondrosarcoma", "Osteoid osteoma"],
+        correctAnswer: 1,
+        explanation: "Ewing's sarcoma is a highly malignant round-cell tumor that drives an aggressive reactive periosteal bone layout resembling concentric onion skins."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A 45-year-old male presents with severe epigastric distress. Endoscopic tissue sample microscopy documents deep mucosal neutrophilic infiltration paired with dense reactive lymphoid follicle formation. What is the most likely pathogen?",
+        options: ["Helicobacter pylori", "Cytomegalovirus", "Salmonella enteritidis", "Cryptosporidium species"],
+        correctAnswer: 0,
+        explanation: "Helicobacter pylori induces a high-density active chronic type-B gastritis presentation, inducing prominent structural mucosal lymphoid aggregate formation."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of numerous classical Reed-Sternberg cells displaying a distinctive 'owl-eye' bi-nucleated morphology establishes a diagnosis of:",
+        options: ["Burkitt lymphoma", "Hodgkin lymphoma", "Follicular center lymphoma", "Diffuse large B-cell neoplasia"],
+        correctAnswer: 1,
+        explanation: "Reed-Sternberg cells are neoplastic germinal center B-cells that serve as the mandatory pathognomonic marker for diagnosing Hodgkin lymphoma."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which mechanical variant of vascular shock states is uniquely driven by a primary systemic failure to distribute output volume due to massive peripheral arteriolar vasodilation?",
+        options: ["Cardiogenic shock", "Anaphylactic shock", "Hypovolemic shock profile", "Obstructive tamponade shock"],
+        correctAnswer: 1,
+        explanation: "Anaphylactic and septic profiles trigger massive, systemic endothelial nitric oxide release, expanding cross-sectional vascular volume space drastically."
+    },
+    {
+        subject: "Pathology",
+        questionText: "On a peripheral blood smear assessment from a patient experiencing severe acute microangiopathic hemolytic anemia, which erythrocyte shape is pathognomonic?",
+        options: ["Target cells (Codocytes)", "Schistocytes (Helmet cells)", "Spherocytes", "Teardrop cells (Dacryocytes)"],
+        correctAnswer: 1,
+        explanation: "Schistocytes represent mechanical fragmentations produced when circulating erythrocytes get torn while passing across loose fibrin mesh strands inside microvessels."
+    },
+    {
+        subject: "Pathology",
+        questionText: "A 55-year-old chronic heavy smoker presents with an irregular, firm lung mass. Biopsy confirms sheets of polygonal cells containing dense intercellular bridges and focal pink keratin pearls. What is the diagnosis?",
+        options: ["Adenocarcinoma", "Squamous cell carcinoma", "Small cell neuroendocrine carcinoma", "Large cell anaplastic tracking"],
+        correctAnswer: 1,
+        explanation: "The presence of intercellular bridges (desmosomes) paired with explicit cytoplasmic keratinization formatting defines differentiated squamous cell carcinomas."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which genetic translocation is pathognomonic for Burkitt Lymphoma?",
+        options: ["t(9;22)", "t(8;14)", "t(14;18)", "t(11;14)"],
+        correctAnswer: 1,
+        explanation: "Burkitt lymphoma is driven by a t(8;14) translocation that moves the c-MYC proto-oncogene next to the heavy-chain immunoglobulin promoter site, forcing hyper-transcription."
+    },
+    {
+        subject: "Pathology",
+        questionText: "What morphological feature characterizes apoptotic cells under microscopic inspection?",
+        options: ["Cellular swelling and membrane rupture", "Cellular shrinkage and nuclear fragmentation", "Massive enzymatic autolysis fields", "Diffuse surrounding neutrophilic tracking"],
+        correctAnswer: 1,
+        explanation: "Apoptosis is a tidy, non-inflammatory process marked by cell shrinkage, chromatin condensation, membrane blebbing, and formation of intact apoptotic bodies."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presence of standard Schaumann bodies and asteroid bodies inside non-caseating granulomas points toward which diagnosis?",
+        options: ["Tuberculosis", "Sarcoidosis", "Lepromatous leprosy", "Histoplasmosis"],
+        correctAnswer: 1,
+        explanation: "Sarcoidosis features non-caseating granulomas that contain lamellar calcium-protein structures (Schaumann bodies) and stellate inclusions (asteroid bodies)."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which class of immunoglobulin aggregates into a pentamer format to handle primary immune responses?",
+        options: ["IgG", "IgA", "IgM", "IgE"],
+        correctAnswer: 2,
+        explanation: "IgM forms a high-molecular-weight pentamer linked by J-chains, providing highly efficient antigen binding during early exposures."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Nutmeg liver patterns observed during deep autopsy inspections are driven by which process?",
+        options: ["Acute portal pyemia", "Chronic passive venous congestion", "Massive hepatic steatosis", "Primary biliary cirrhosis"],
+        correctAnswer: 1,
+        explanation: "Chronic passive congestion from right-sided heart failure causes blood to pool in the central veins, generating a mottled, nutmeg-like liver surface."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which vascular condition classically involves the structural destruction of the tunica media within the ascending aorta due to tertiary syphilis?",
+        options: ["Moneckeberg arteriosclerosis", "Obliterative endarteritis of the vasa vasorum", "Thromboangiitis obliterans", "Giant cell temporal arteritis"],
+        correctAnswer: 1,
+        explanation: "Syphilis attacks the tiny vasa vasorum vessels supplying the aortic arch, starving the tunica media of oxygen and causing it to weaken and dilate."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which renal pathology displays a signature 'wire-loop' thickening of glomerular capillaries under light microscopy?",
+        options: ["Minimal change disease", "Lupus nephritis (Class IV)", "Diabetic glomerulosclerosis", "Membranous nephropathy schemas"],
+        correctAnswer: 1,
+        explanation: "Diffuse proliferative glomerulonephritis in SLE features subendothelial immune complex deposits that create thick 'wire-loop' capillary structures."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The expansion of which type of unstable trinucleotide repeat sequence causes Fragile X syndrome?",
+        options: ["CAG repeat rows", "CGG repeat arrays", "GAA repeat chains", "CTG repeat patterns"],
+        correctAnswer: 1,
+        explanation: "Fragile X stems from an expansion of hypermethylated CGG repeats within the FMR1 gene, silencing key protein expression."
+    },
+    {
+        subject: "Pathology",
+        questionText: "What type of collagen structure is progressively laid down to replace normal parenchymal cells during late-stage hepatic cirrhosis?",
+        options: ["Type I and Type III collagen", "Type II collagen grids", "Type IV basement membrane fibers", "Type V vascular layer arrays"],
+        correctAnswer: 0,
+        explanation: "Activated hepatic stellate cells (Ito cells) shift from storing vitamin A to pumping out dense Type I and III fibrillar collagen into the spaces of Disse."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The presentation of severe, symmetric migratory polyarthritis paired with distinctive Aschoff nodules inside the myocardium confirms:",
+        options: ["Rheumatoid arthritis", "Acute rheumatic fever", "Systemic lupus erythematosus", "Infective endocarditis flora"],
+        correctAnswer: 1,
+        explanation: "Aschoff bodies containing plump Anitschkow cells are pathognomonic interstitial lesions found inside heart tissue following acute Group A streptococcal cross-reactions."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which colonic lesion classically presents on microscopy with a signature 'sawtooth' architectural pattern across the crypt epithelium?",
+        options: ["Tubular adenoma tracking", "Serrated hyperplastic polyp", "Villous adenoma grids", "Inflammatory pseudopolyp loops"],
+        correctAnswer: 1,
+        explanation: "Hyperplastic and serrated polyps feature an architectural 'sawtooth' infolding layout across the upper third of the colonic crypts."
+    },
+    {
+        subject: "Pathology",
+        questionText: "The development of a clear-cell renal carcinoma profile is molecularly linked to mutations that break which tumor suppressor gene?",
+        options: ["RB1 locus", "TP53 gene switch", "VHL (Von Hippel-Lindau)", "WT1 nephroblastoma tracks"],
+        correctAnswer: 2,
+        explanation: "Loss of the VHL gene prevents regular degradation of hypoxia-inducible factor (HIF), driving uncontrolled vascular VEGF and tumor growth."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Which distinct brain lesion displays a signature 'pseudopalisading' pattern of tumor cells flanking areas of central necrosis?",
+        options: ["Meningioma", "Glioblastoma multiforme", "Pilocytic astrocytoma", "Medulloblastoma arrays"],
+        correctAnswer: 1,
+        explanation: "Glioblastoma multiforme is a highly aggressive tumor characterized by serpentine zones of necrosis outlined by palisading tumor cells."
+    },
+    {
+        subject: "Pathology",
+        questionText: "Psammoma bodies represent organized target concentric whorls of calcification found in all the following neoplasms EXCEPT:",
+        options: ["Papillary thyroid carcinoma", "Serous cystadenocarcinoma of the ovary", "Meningioma", "Follicular thyroid carcinoma"],
+        correctAnswer: 3,
+        explanation: "Psammoma bodies represent localized dystrophic calcified whorled structures found in papillary thyroid cancers, meningiomas, and serous ovarian tumors, but are absent in follicular thyroid tumors."
+    },
+
+    // --- PHARMACOLOGY (40 QUESTIONS) ---
     {
         subject: "Pharmacology",
         questionText: "Which of the following molecularly targeted anti-cancer agents acts as a competitive inhibitor of tyrosine kinase?",
@@ -383,7 +959,7 @@ const questionDatabase = [
         questionText: "Which antimicrobial agent should be strictly avoided in a chronic asthmatic patient managed on active daily theophylline therapy?",
         options: ["Erythromycin", "Amoxicillin", "Cefotaxime", "Cotrimoxazole"],
         correctAnswer: 0,
-        explanation: "Macrolide antibiotics like erythromycin strongly delete clearance channels by inhibiting CYP1A2, driving toxic updates."
+        explanation: "Macrolide antibiotics like erythromycin block clearance channels by inhibiting CYP1A2, driving toxic accumulations of theophylline."
     },
     {
         subject: "Pharmacology",
@@ -435,13 +1011,6 @@ const questionDatabase = [
         explanation: "Pefloxacin undergoes heavy hepatic transformation and can accumulate dangerously in patients with compromised liver function."
     },
     {
-        subject: "Medicine",
-        questionText: "A person ascending to 3000m altitude develops acute mountain sickness. All of the following are indicated EXCEPT:",
-        options: ["Intravenous digoxin", "Oxygen supplementation", "Immediate descent", "Acetazolamide"],
-        correctAnswer: 0,
-        explanation: "Digoxin plays no physiological role in managing acute hypobaric hypoxia or high-altitude capillary shifts."
-    },
-    {
         subject: "Pharmacology",
         questionText: "A diabetic patient with COPD develops postoperative urinary retention. Which drug provides safe short-term therapeutic relief?",
         options: ["Bethanechol", "Methacholine", "Terazosin", "Tamsulosin"],
@@ -483,6 +1052,155 @@ const questionDatabase = [
         correctAnswer: 0,
         explanation: "In zero-order kinetics, a fixed, absolute amount of drug is cleared per unit time regardless of its current plasma concentration."
     },
+    {
+        subject: "Pharmacology",
+        questionText: "Which distinct antiviral agent operates molecularly by inhibiting viral neuraminidase enzymes to block the release of newly replicated influenza virions?",
+        options: ["Acyclovir", "Oseltamivir", "Ribavirin", "Ganciclovir"],
+        correctAnswer: 1,
+        explanation: "Oseltamivir prevents neuraminidase from cleaving sialic acid targets, trapping freshly assembled influenza A and B virions inside the host cell membrane envelope."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe, irreversible gray baby syndrome following a neonatal infection is linked to toxicity from which antibiotic class?",
+        options: ["Gentamicin aminoglycosides", "Chloramphenicol", "Erythromycin macrolides", "Tetracycline complexes"],
+        correctAnswer: 1,
+        explanation: "Neonates lack sufficient levels of hepatic UDP-glucuronosyltransferase, leading to toxic chloramphenicol accumulation that poisons mitochondrial respiration grids."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which generation of cephalosporins does the highly active anti-pseudomonal beta-lactam agent Cefepime belong to?",
+        options: ["Second generation", "Third generation", "Fourth generation", "Fifth generation"],
+        correctAnswer: 2,
+        explanation: "Cefepime is classified as a fourth-generation cephalosporin, offering highly balanced Gram-positive coverage paired with exceptional resistance against Pseudomonas aeruginosa."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which class of anti-hyperlipidemic therapeutics functions primarily by competitively blocking the intracellular enzyme HMG-CoA reductase?",
+        options: ["Fibric acid derivatives (Fibrates)", "Bile acid-binding resins", "Statins (Atorvastatin, Rosuvastatin)", "Cholesterol absorption inhibitors (Ezetimibe)"],
+        correctAnswer: 2,
+        explanation: "Statins act as direct structural analogs to HMG-CoA, blocking the rate-limiting conversion step into mevalonic acid during cholesterol biogenesis pathways."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of a dry, persistent nocturnal cough during management for chronic hypertension is a common adverse effect associated with which drug class?",
+        options: ["Calcium channel blockers", "Angiotensin-Converting Enzyme (ACE) Inhibitors", "Beta-adrenergic receptor blockers", "Thiazide loop diuretic agents"],
+        correctAnswer: 1,
+        explanation: "ACE inhibitors halt the regular enzymatic degradation of bradykinin and Substance P within pulmonary tissues, leading to localized pro-inflammatory sensory irritation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which highly effective loop diuretic handles volume overloads by blocking the operational pathways of the Na+/K+/2Cl- co-transporter system?",
+        options: ["Hydrochlorothiazide", "Furosemide", "Spironolactone", "Acetazolamide carbonic inhibitors"],
+        correctAnswer: 1,
+        explanation: "Furosemide binds directly into the chloride-binding slots of the luminal symporter located inside the thick ascending limb of the loop of Henle."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the primary operational mechanism behind the anti-anginal properties of sublingual Nitroglycerin?",
+        options: ["Direct blockade of voltage-gated calcium entry channels", "Activation of soluble guanylyl cyclase, increasing intracellular cGMP levels", "Competitive blockade of beta-1 cardiac receptors", "Direct opening of ATP-sensitive potassium channels"],
+        correctAnswer: 1,
+        explanation: "Nitroglycerin releases free nitric oxide gas, which upregulates cyclic GMP configurations to dephosphorylate myosin light chains, inducing profound venodilation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which unique biguanide oral hypoglycemic agent functions primarily by activating intracellular AMP-activated protein kinase (AMPK)?",
+        options: ["Glimepiride", "Metformin", "Pioglitazone", "Sitagliptin"],
+        correctAnswer: 1,
+        explanation: "Metformin's activation of hepatic AMPK suppresses baseline mitochondrial gluconeogenesis, downregulating hepatic glucose outputs while enhancing peripheral tissue insulin sensitivity."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe, acute hemorrhagic cystitis during an oncology regimen using Cyclophosphamide is prevented by co-administering:",
+        options: ["Leucovorin calcium", "Mesna", "Allopurinol xanthine blocks", "Amifostine solutions"],
+        correctAnswer: 1,
+        explanation: "Mesna features highly reactive thiol groups that chemically neutralize acrolein, the toxic electrophilic urothelial metabolite shed by cyclophosphamide actions."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which rapid-acting anticoagulant acts molecularly by accelerating the natural inhibitory activity of Antithrombin III against Thrombin and Factor Xa?",
+        options: ["Warfarin coumarin options", "Unfractionated Heparin", "Dabigatran etexilate", "Rivaroxaban formulas"],
+        correctAnswer: 1,
+        explanation: "Heparin features a specialized pentasaccharide sequence that induces an immediate conformational change in antithrombin, accelerating its target protease clearings by 1000-fold."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "What is the molecular mechanism behind the atypical antipsychotic agent Clozapine?",
+        options: ["Pure, potent selective dopamine D2 receptor blockade", "Combined serotonin 5-HT2A and dopamine D4/D2 receptor antagonism", "Selective serotonin reuptake inhibition (SSRI) loops", "Monoamine oxidase type B enzyme inhibition"],
+        correctAnswer: 1,
+        explanation: "Clozapine exhibits a highly balanced multi-receptor binding layout, showing a high affinity for serotonin 5-HT2A networks relative to transient dopamine D2 receptors."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which potent inhalation anesthetic matrix is characteristically linked to a risk of triggering malignant hyperthermia in genetically susceptible individuals?",
+        options: ["Nitrous oxide gas", "Halothane", "Propofol emulsion profiles", "Ketamine dissociative arrays"],
+        correctAnswer: 1,
+        explanation: "Halothane can trigger uncontrolled, continuous calcium release from altered skeletal muscle ryanodine RYR1 receptors, driving severe hypermetabolic contractions."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The selective competitive blockade of H1 histamine receptors to treat allergic rhino-conjunctivitis without causing central sedation is achieved by using:",
+        options: ["Diphenhydramine formulas", "Cetirizine", "Promethazine autonomic mixtures", "Hydroxyzine hydrochloride lines"],
+        correctAnswer: 1,
+        explanation: "Second-generation agents like cetirizine contain polar carboxyl modifications that prevent them from crossing the blood-brain barrier."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which drug is used as a specific competitive antagonist to reverse benzodiazepine overdose toxicity?",
+        options: ["Naloxone", "Flumazenil", "Acetylcysteine", "Pralidoxime"],
+        correctAnswer: 1,
+        explanation: "Flumazenil acts as a highly selective competitive antagonist at the central GABA-A receptor complex, rapidly reversing benzodiazepine sedation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "By what direct mechanism does the drug Digoxin increase myocardial contractility performance?",
+        options: ["Opening of beta-1 surface receptors", "Inhibition of the membrane-bound Na+/K+ ATPase pump", "Direct blockade of potassium rectifier tracks", "Activation of intracellular adenylate cyclase"],
+        correctAnswer: 1,
+        explanation: "Digoxin blocks the sodium-potassium pump, causing intracellular sodium to build up. This slows the sodium-calcium exchanger, driving calcium levels up to boost cardiac squeeze."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The development of severe neuromuscular block and ototoxicity features is an established side effect of which antibiotic group?",
+        options: ["Penicillins", "Aminoglycosides (Amikacin, Gentamicin)", "Macrolides", "Fluoroquinolones"],
+        correctAnswer: 1,
+        explanation: "Aminoglycosides can trigger cochlear/vestibular damage and block acetylcholine release at the neuromuscular junction, aggravating muscle weakness."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which mechanism underpins the therapeutic action of Omeprazole within the stomach wall mucosa?",
+        options: ["H2 histamine receptor competitive antagonism", "Irreversible inhibition of the gastric H+/K+ ATPase proton pump", "Direct chemical neutralization of luminal stomach acid", "PGE1 analog-mediated mucosal protection"],
+        correctAnswer: 1,
+        explanation: "Omeprazole is a proton pump inhibitor (PPI) that forms a covalent disulfide bond with the H+/K+ ATPase enzyme, shutting down gastric acid output."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which broad-spectrum anticonvulsant acts simultaneously by blocking voltage-gated sodium channels while increasing GABA availability?",
+        options: ["Phenytoin line matrices", "Sodium Valproate", "Ethosuximide", "Carbamazepine structures"],
+        correctAnswer: 1,
+        explanation: "Valproate utilizes a broad multi-system approach, blocking sodium channels, suppressing T-type calcium currents, and downregulating GABA degradation."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "The administration of which structural layout element functions as the definitive antidote for acute acetaminophen (paracetamol) poisoning?",
+        options: ["Atropine sulphate", "N-Acetylcysteine (NAC)", "Deferoxamine injections", "Physostigmine salicylate"],
+        correctAnswer: 1,
+        explanation: "NAC recharges hepatic glutathione reserves, allowing the liver to safely neutralize NAPQI—the toxic paracetamol byproduct that causes liver cell death."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which anti-arrhythmic agent is classified as a classic Class III potassium channel blocker profile?",
+        options: ["Lidocaine", "Amiodarone", "Verapamil", "Procainamide models"],
+        correctAnswer: 1,
+        explanation: "Amiodarone primarily acts as a Class III agent by blocking potassium currents to delay repolarization, though it exhibits Class I, II, and IV properties as well."
+    },
+    {
+        subject: "Pharmacology",
+        questionText: "Which therapeutic agent serves as a highly selective competitive inhibitor of the enzyme xanthine oxidase to manage chronic gout?",
+        options: ["Probenecid matrices", "Allopurinol", "Colchicine", "Indomethacin arrays"],
+        correctAnswer: 1,
+        explanation: "Allopurinol acts as a structural isomer of hypoxanthine, blocking xanthine oxidase to halt the synthesis of uric acid."
+    },
+
+    // --- FORENSIC MEDICINE & PSYCHIATRY (20 QUESTIONS) ---
     {
         subject: "Forensic Medicine",
         questionText: "Which primary piece of legislation defines criminal definitions and punishments for child sexual abuse scenarios across all of India?",
@@ -539,6 +1257,92 @@ const questionDatabase = [
         correctAnswer: 0,
         explanation: "A standard legal reception order for inpatient psychiatric hold remains valid for an initial period of 30 days."
     },
+    {
+        subject: "Psychiatry",
+        questionText: "Which of the following is included in a form of thought disorder?",
+        options: ["Derailment", "Obsession", "Thought insertion", "Delusion"],
+        correctAnswer: 0,
+        explanation: "Types of formal thought disorder include derailment, pressured speech, poverty of speech, tangentiality, verbigeration, and thought blocking."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "During the course of psychotherapy, the therapist has mixed conscious and unconscious feelings towards a patient. This is clinically known as:",
+        options: ["Transference", "Countertransference", "Dissociation", "Preoccupation"],
+        correctAnswer: 1,
+        explanation: "In psychoanalytic theory, countertransference occurs when the clinician projects their own unresolved conflicts or psychological reactions onto the client."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "The development of postmortem lividity (hypostasis) provides crucial clinical evidence regarding which parameter?",
+        options: ["The definitive cause of traumatic death", "Verification of the time since death and posture adjustments", "The extent of pre-mortem internal hemorrhage", "The presence of structural skeletal fractures"],
+        correctAnswer: 1,
+        explanation: "Lividity pins down the position of the body after death and helps calculate the post-mortem interval based on whether the purple staining has fixed."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "A signature bright cherry-red coloration of postmortem hypostasis across a deceased individual indicates poisoning from:",
+        options: ["Hydrogen sulfide gas", "Carbon monoxide", "Phosphorus complexes", "Arsenic trioxide elements"],
+        correctAnswer: 1,
+        explanation: "Carbon monoxide binds with high affinity to hemoglobin, forming carboxyhemoglobin, which gives tissues a signature cherry-red tint."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "Which distinctive gunshot residue sign defines a close-range entry wound (within 6 inches) matching powder soot deposits?",
+        options: ["Singeing of hair outlines", "Smudging or tattooing effect", "Potent carbon black scorching line", "Beveling of internal bone plates"],
+        correctAnswer: 1,
+        explanation: "Powder tattooing or smudging occurs when unburnt gunpowder granules embed directly into the skin, reflecting close-range firearm discharges."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "By legal definition across India, a professional medical practitioner who gives fabricated data during courtroom cross-examination is tried under:",
+        options: ["IPC Section 304A", "IPC Section 193 for Perjury", "IPC Section 336 rules", "IPC Section 201 provisions"],
+        correctAnswer: 1,
+        explanation: "Perjury involves willfully delivering false testimony under a legal oath, which violates IPC 193 guidelines."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "What classic sign defines an entry wound caused by a heavy, sharp chopping weapon like an axe blade?",
+        options: ["A clean laceration with uniform tissue bridge tracks", "An incised-like wound with ragged contused margins and structural bone fractures", "A simple small punctate entry field profile", "A classic stellate burst pattern text"],
+        correctAnswer: 1,
+        explanation: "Heavy chopping tools combine a sharp cutting force with a crushing mass effect, leaving contused margins bordering a deep incised cut."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "The unique medical jurisprudence rule known as the 'Doctrine of Res Ipsa Loquitur' translates clinically to:",
+        options: ["The patient must explicitly prove the doctor's errors", "The matter speaks for itself (obvious negligence)", "A final supreme judicial decree", "Contributory liability adjustments"],
+        correctAnswer: 1,
+        explanation: "Res Ipsa Loquitur applies to undeniable errors (like leaving a surgical sponge inside a abdomen), where negligence is clear without complex proof."
+    },
+    {
+        subject: "Forensic Medicine",
+        questionText: "Which chemical test is used to identify the presence of blood by generating pink pyridine ferrohemochromogen crystals?",
+        options: ["Teichmann crystal test", "Takayama chemical test", "Kastle-Meyer color test", "Benzidine screening matrix"],
+        correctAnswer: 1,
+        explanation: "The Takayama test is a microcrystal test that reacts with blood heme groups to produce pink salmon-colored crystals."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "A patient displays a fixed, false belief that external media broadcasts carry hidden messages targeted exclusively at them. This condition is known as:",
+        options: ["Delusion of persecution", "Delusion of reference", "Grandiose delusion status", "Erotomanic ideation tracks"],
+        correctAnswer: 1,
+        explanation: "Delusions of reference involve a false conviction that random, everyday remarks or public events have unique personal meaning."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "Which medication serves as the baseline, first-line Drug of Choice (DOC) for managing severe panic disorder states?",
+        options: ["Haloperidol", "Selective Serotonin Reuptake Inhibitors (SSRIs)", "Lithium carbonate blocks", "Buspirone formulas"],
+        correctAnswer: 1,
+        explanation: "SSRIs like sertraline serve as the foundational, long-term treatment choice for panic disorders due to their favorable safety profile."
+    },
+    {
+        subject: "Psychiatry",
+        questionText: "A patient presenting with global confusion, vivid visual hallucinations, full-body tremors, and extreme autonomic hyperactivity following alcohol cessation has:",
+        options: ["Wernicke encephalopathy", "Korsakoff psychosis", "Delirium Tremens", "Acute alcohol intoxication"],
+        correctAnswer: 2,
+        explanation: "Delirium tremens is the most severe manifestation of alcohol withdrawal, featuring confusion and sympathetic overdrive that can prove fatal if left unmanaged."
+    },
+
+    // --- MICROBIOLOGY (30 QUESTIONS) ---
     {
         subject: "Microbiology",
         questionText: "Which primary mosquito vector is responsible for the epidemiological transmission of the Zika virus?",
@@ -645,354 +1449,391 @@ const questionDatabase = [
         explanation: "Gonococcal pili (fimbriae) extend outward to attach to host mucosal surfaces and provide structural resistance to phagocytosis."
     },
     {
-        subject: "PSM",
+        subject: "Microbiology",
+        questionText: "Which staining method is traditionally used to identify Mycobacterium tuberculosis under microscopy?",
+        options: ["Gram stain technique", "Ziehl-Neelsen (Acid-Fast) staining", "Albert staining profile", "Mucicarmine stain complex"],
+        correctAnswer: 1,
+        explanation: "The high lipid mycolic acid content within Mycobacterial cell walls resists decolorization by acid-alcohol, staining a bright red against a blue background."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "What structural feature provides the mechanism for standard corporate resistance behind Methicillin-Resistant Staphylococcus aureus (MRSA)?",
+        options: ["Production of altered penicillin-binding protein PBP2a", "Synthesis of thick outer polysaccharide capsule matrix layers", "Active plasmid-mediated beta-lactamase enzyme synthesis", "Upregulated transmembrane drug efflux pumping loops"],
+        correctAnswer: 0,
+        explanation: "The mecA gene encodes PBP2a, a modified penicillin-binding protein that exhibits a very low affinity for almost all beta-lactam antibiotics."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The characteristic pathognomonic finding known as a 'Spaghetti and meatballs' appearance on a KOH skin scraping indicates an infection from:",
+        options: ["Dermatophyte Trichophyton lines", "Malassezia furfur", "Candida albicans yeast frames", "Microsporum canis spores"],
+        correctAnswer: 1,
+        explanation: "Pityriasis versicolor evaluations reveal short, blunt hyphae mixed with circular budding yeast cells that resemble a plate of spaghetti and meatballs."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which pathogen causes gas gangrene in dirty, contaminated deep puncture wounds?",
+        options: ["Clostridium tetani", "Clostridium perfringens", "Bacillus cereus", "Pseudomonas aeruginosa"],
+        correctAnswer: 1,
+        explanation: "Clostridium perfringens produces alpha toxin (lecithinase), causing rapid muscle death and gas production within tissues."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The unique diagnostic phenomenon known as the Satellitism test is used to isolate which fastidious pathogen?",
+        options: ["Neisseria meningitidis", "Haemophilus influenzae", "Bordetella pertussis grids", "Corynebacterium diphtheriae profiles"],
+        correctAnswer: 1,
+        explanation: "Haemophilus influenzae grows next to colonies of Staphylococcus aureus on blood agar because the staph bacteria leak out the required Factor V (NAD)."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which of the following viral agents is definitively classified as a naked, non-enveloped RNA virus?",
+        options: ["Hepatitis A virus (HAV)", "Hepatitis B virus (HBV)", "Hepatitis C virus (HCV)", "Human Immunodeficiency Virus (HIV)"],
+        correctAnswer: 0,
+        explanation: "Hepatitis A is a non-enveloped picornavirus, making it highly stable in the environment and easily spread via fecal-oral routes."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The development of a classic 'starry sky' pattern on a lymph node biopsy indicates which condition?",
+        options: ["Follicular hyperplasia", "Burkitt Lymphoma tissue profile", "Cat scratch granuloma models", "Hodgkin nodular sclerosis"],
+        correctAnswer: 1,
+        explanation: "Burkitt lymphoma features rapidly multiplying tumor cells interspersed with pale, lipid-laden macrophages, creating a striking starry sky pattern."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which vector spreads epidemic typhus?",
+        options: ["Xenopsylla cheopis flea vectors", "Pediculus humanus corporis (Body louse)", "Ixodes tick vectors", "Dermacentor tick systems"],
+        correctAnswer: 1,
+        explanation: "Rickettsia prowazekii is transmitted between human hosts via feces rubbed into the skin from infected body lice."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which diagnostic medium is specifically recommended to selectively isolate Corynebacterium diphtheriae?",
+        options: ["Lowenstein-Jensen slant medium", "Loeffler serum slope / Potassium Tellurite agar", "Thayer-Martin chocolate profile", "TCBS agar medium matrix"],
+        correctAnswer: 1,
+        explanation: "Tellurite agar acts as a selective medium that inhibits normal throat flora, allowing C. diphtheriae to grow into distinctive grey-black colonies."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "What is the mechanism of action behind the toxic effects of Diphtheria toxin?",
+        options: ["Cleaving neuronal synaptobrevin tracks", "ADP-ribose inactivation of Elongation Factor 2 (EF-2)", "Direct upregulation of cellular cyclic AMP activity", "Structural destruction of cellular membrane lipids"],
+        correctAnswer: 1,
+        explanation: "Diphtheria toxin blocks protein synthesis by adding an ADP-ribose group to EF-2, leading to cell death and the formation of a pseudomembrane in the throat."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which immune marker signals active, high-intensity viral multiplication during a chronic Hepatitis B virus infection?",
+        options: ["HBsAg core levels", "HBeAg surface markers", "Anti-HBs antibody levels", "Anti-HBc total immunoglobulin profiles"],
+        correctAnswer: 1,
+        explanation: "HBeAg serves as an index of high viral load and infectivity, tracking active viral replication inside the liver."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "The development of clear 'negri bodies' inside the cytoplasm of central pyramidal neurons confirms an infection from:",
+        options: ["Herpes simplex encephalitis", "Rabies virus", "Progressive multifocal leukoencephalopathy", "Subacute sclerosing panencephalitis"],
+        correctAnswer: 1,
+        explanation: "Negri bodies are round inclusion bodies found within the Purkinje cells of the cerebellum and pyramidal cells of the hippocampus in rabies cases."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which organism is the most common cause of acute osteomyelitis in children with sickle cell anemia?",
+        options: ["Staphylococcus aureus", "Salmonella species", "Pseudomonas aeruginosa", "Streptococcus pneumoniae"],
+        correctAnswer: 1,
+        explanation: "Staphylococcus aureus remains the leading cause of bone infections overall, but Salmonella exhibits a unique high incidence in children with sickle cell traits."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "What structural step coordinates horizontal gene transfer via direct plasmid links between two bacterial cells?",
+        options: ["Bacteriophage-mediated transduction loops", "Direct transformation of naked environmental DNA", "Sex pilus-mediated bacterial conjugation", "Somatic mutation events"],
+        correctAnswer: 2,
+        explanation: "Conjugation relies on a specialized sex pilus to form a bridge between donor and recipient cells to transfer genetic material."
+    },
+    {
+        subject: "Microbiology",
+        questionText: "Which protozoan parasite classically presents with a signature 'falling leaf' motility style under direct stool microscopy?",
+        options: ["Entamoeba histolytica trophozoites", "Giardia lamblia trophozoites", "Balantidium coli frames", "Cryptosporidium parvum elements"],
+        correctAnswer: 1,
+        explanation: "Giardia lamblia trophozoites feature a pear-shaped look with multiple flagella that generate a unique, tumbling 'falling leaf' movement pattern."
+    },
+
+    // --- PSM & BIOSTATISTICS (40 QUESTIONS) ---
+    {
+        subject: "PSM & Biostatistics",
         questionText: "According to current biomedical waste rules, into which color-coded collection category should hazardous liquid chemical waste be placed?",
         options: ["White", "Yellow", "Blue", "Red"],
         correctAnswer: 1,
         explanation: "Chemical liquids, body secretions, and cytotoxic waste products go into yellow containers for disposal under biomedical waste rules."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Under the provisions of the Indian Factories Act, what is the maximum permissible total weekly work hours limit, including regular overtime?",
         options: ["48", "50", "60", "100"],
         correctAnswer: 2,
         explanation: "The baseline week is 48 hours, but with permitted daily overtime additions, the absolute peak limit is 60 hours under the Factories Act."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Following a catastrophic natural disaster event, which mass emergency routine vaccination profile is uniformly indicated?",
         options: ["vaccination against typhoid", "vaccination against cholera", "vaccination against typhoid and cholera", "vaccination against tetanus"],
         correctAnswer: 3,
         explanation: "Trauma exposures in unsanitary disaster fields require immediate tetanus immunization updates to protect injured patients."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "What is the structural monitoring focus of the global healthcare platform known as the MONICA project?",
         options: ["Multinational monitoring of trends and determinants in Cardiovascular Disease", "Multinational of trends and determinants in cerebrovascular disease", "Multinational monitoring of trends and determinants in diabetes", "Multinational monitoring of trends and determinants in congenital heart disease"],
         correctAnswer: 0,
         explanation: "The WHO MONICA project monitored multinational trends and determinants in cardiovascular disease patterns over a ten-year cycle."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Under the active ESI Act, what is the maximum available duration for extended sickness benefit support for an insured person tracking active tuberculosis?",
         options: ["91 days", "1-year", "2 years", "4 years"],
         correctAnswer: 2,
         explanation: "The ESI Act provides up to 2 years of continuous extended sickness coverage for long-term chronic illnesses like tuberculosis."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "A person reports 4 hours after having a clean wound without laceration. He had taken a TT booster 10 years before. What is the next step in management?",
         options: ["Full course Tetanus vaccine to be given", "Full dose TT with TIG", "Single-dose TT", "No need for any vaccine"],
         correctAnswer: 2,
         explanation: "Clean wounds older than 10 years since the last booster require a single Tetanus Toxoid (TT) dose to restore protective levels."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "The major global respiratory influenza pandemics of both 1918 and 2009 were driven by which viral strain subtype?",
         options: ["H1N1", "H5N1", "H7N7", "H3N2"],
         correctAnswer: 0,
         explanation: "The H1N1 influenza subtype caused the devastating 1918 Spanish Flu and the 2009 Swine Flu pandemics."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "What is the primary operational mission target behind the health layout known as Mission Indradhanush?",
         options: ["Non-communicable diseases", "Universal immunization", "Family planning", "Safe water and sanitation"],
         correctAnswer: 1,
         explanation: "Launched in 2014, Mission Indradhanush aims to achieve universal immunization coverage for children against vaccine-preventable diseases."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "In a study featuring a perfect normal distribution with a median value of 200 and a Standard Deviation (SD) of 20, exactly 68% of the sample values fall within which range?",
         options: ["160-240", "170-230", "180-220", "190-210"],
         correctAnswer: 2,
         explanation: "In normal distributions, Mean=Median. 68% of the population falls within +/- 1 Standard Deviation (200 +/- 20), which translates to 180-220."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Which of the following health administration techniques is natively based upon organizational behavioral sciences?",
         options: ["Management by objectives", "Network analysis", "Systems analysis", "Decision making"],
         correctAnswer: 0,
         explanation: "Management by objectives (MBO) is explicitly based on behavioral sciences, emphasizing communication and goal-setting."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "According to the Sustainable Development Goals (SDGs) targets, what is the global Maternal Mortality Ratio (MMR) benchmark to be achieved by 2030?",
         options: ["< 70 / Lac live births", "< 100 / lac live births", "< 7 / 1000 live births", "< 10 / 1000 live births"],
         correctAnswer: 0,
         explanation: "SDG Goal 3 aims to reduce the global maternal mortality ratio to less than 70 per 100,000 (Lac) live births by 2030."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Which combination of markers is utilized for continuous routine monitoring of urban ambient air pollution frameworks?",
         options: ["Sulphur dioxide, smoke, and particulate matter", "Sulphur dioxide, Hydrogen sulphide, carbon monoxide", "Carbon dioxide, hydrogen sulphide, lead", "Sulphur dioxide, Lead and particulate matter"],
         correctAnswer: 3,
         explanation: "The core parameters of the Air Quality Index routinely track Sulphur dioxide, Lead, and particulate matter alongside other markers."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "The relative variation between separate numerical biological datasets containing different units is best compared using the:",
         options: ["Variance", "Coefficient of variation", "The standard error of mean", "Standard deviation"],
         correctAnswer: 1,
         explanation: "The coefficient of variation standardizes the measure of dispersion, allowing direct variation comparisons across different units."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "Which health economics management evaluation framework explicitly quantifies treatment outcomes using purely natural physical units?",
         options: ["Program budgeting system", "Network analysis", "Cost-effective analysis", "Cost-benefit analysis"],
         correctAnswer: 2,
         explanation: "In cost-effectiveness analysis (CEA), benefits are measured in natural units of the outcomes (e.g., life-years gained, cases prevented) rather than monetary values."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "The absolute difference in disease incidence rates between a risk-factor exposed cohort and a non-exposed cohort is defined as the:",
         options: ["Relative risk", "Attributable risk", "Population attributable risk", "Odds ratio"],
         correctAnswer: 1,
         explanation: "Attributable Risk is the absolute difference in incidence rates between an exposed group and a non-exposed group, reflecting excess risk."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "If the specific quantitative value of an independent variable x is known, the matching value of a dependent variable y can be predicted using the:",
         options: ["Coefficient of variation", "Coefficient of correlation", "Coefficient of regression", "Coefficient of determination"],
         correctAnswer: 2,
         explanation: "The regression coefficient quantifies the dynamic functional mathematical relationship to predict or find variable y knowing variable x."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "Which clinical screening scenario provides an example of prospective screening implementation?",
         options: ["Neonate for thyroid diseases", "Immigrant screening", "Pap smear for 45-year female", "Diabetes mellitus for 40-year male"],
         correctAnswer: 1,
         explanation: "Screening of immigrants to a country is an example of prospective screening, where people are screened for the broader benefit of others."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "A researcher gathers regional aggregate tobacco sales data alongside hospital diagnostic databases to evaluate the link between smoking and COPD. Which study design is this?",
         options: ["Cross-sectional", "Posological study", "Ecological study", "Operations research"],
         correctAnswer: 2,
         explanation: "An ecological study is an observational study where information is collected and evaluated at the group or population level rather than tracking individual data parameters."
     },
     {
-        subject: "Biostatistics",
+        subject: "PSM & Biostatistics",
         questionText: "A study compares malnutrition rates between 100 rural children and 100 urban children (nominal data proportions). Which statistical significance test should be utilized?",
         options: ["Paired t-test", "Chi-square", "The standard error of mean", "ANOVA"],
         correctAnswer: 1,
         explanation: "The Chi-square test is ideal for analyzing and comparing categorical data proportions across independent test groups."
     },
     {
-        subject: "PSM",
+        subject: "PSM & Biostatistics",
         questionText: "The active disinfecting property and chemical potency of bleaching powder inside water systems is primarily driven by the generation of:",
         options: ["Chlorine", "Hypochloric acid", "Hypochlorous acid", "Chloramines"],
         correctAnswer: 2,
         explanation: "The active component and disinfecting action of bleaching powder (CaOCl2) is driven by the formation of hypochlorous acid."
     },
     {
-        subject: "Psychiatry",
-        questionText: "Which of the following is included in a form of thought disorder?",
-        options: ["Derailment", "Obsession", "Thought insertion", "Delusion"],
+        subject: "PSM & Biostatistics",
+        questionText: "The constant, ongoing baseline presence of a specific infectious disease within a defined geographic region is known as:",
+        options: ["Epidemic occurrence", "Endemic status", "Pandemic configuration", "Sporadic breakout layout"],
+        correctAnswer: 1,
+        explanation: "Endemic describes a disease that remains consistently present at a baseline level within a specific population or region."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which insect vector is responsible for the transmission of Epidemic Typhus?",
+        options: ["Anopheles stephensi mosquitoes", "Pediculus humanus corporis (Body louse)", "Xenopsylla cheopis fleas", "Phlebotomus argentipes sandflies"],
+        correctAnswer: 1,
+        explanation: "The body louse transmits Rickettsia prowazekii via contaminated feces rubbed directly into skin bite wounds."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "What represents the primary parameter monitored when calculating the Pearl Index for a contraceptive method?",
+        options: ["Total accidental pregnancies per 100 woman-years of exposure", "The rate of complications per 1,000 surgical procedures", "The absolute number of live births over a decade", "The user compliance ratio within rural sectors"],
         correctAnswer: 0,
-        explanation: "Types of formal thought disorder include derailment, pressured speech, poverty of speech, tangentiality, verbigeration, and thought blocking."
+        explanation: "The Pearl Index is the standard metric used to express the failure rate and effectiveness of a birth control method per 100 woman-years."
     },
     {
-        subject: "Psychiatry",
-        questionText: "During the course of psychotherapy, the therapist has mixed conscious and unconscious feelings towards a patient. This is clinically known as:",
-        options: ["Transference", "Countertransference", "Dissociation", "Preoccupation"],
-        correctAnswer: 1,
-        explanation: "In psychoanalytic theory, countertransference occurs when the clinician projects their own unresolved conflicts or psychological reactions onto the client."
-    },
-    {
-        subject: "Pathology",
-        questionText: "A highly specific pathognomonic feature of acute cell injury seen on microscopic inspection of affected tissues is the formation of:",
-        options: ["Fatty change vacuoles", "Plasma membrane blebbing lines", "Mitochondrial amorphous densities", "Nuclear chromatin clumping grids"],
-        correctAnswer: 2,
-        explanation: "Irreversible cell damage is specifically distinguished from reversible damage by the development of dense, amorphous calcium-rich deposits inside the mitochondrial matrix."
-    },
-    {
-        subject: "Pathology",
-        questionText: "Which of the following cellular structures plays the absolute primary role in executing targeted program cell death (Apoptosis) pathways?",
-        options: ["Lysosomes", "Mitochondria", "Golgi apparatus complex", "Rough endoplasmic reticulum"],
-        correctAnswer: 1,
-        explanation: "The intrinsic apoptotic pathway is governed entirely by the leakage of Cytochrome C out of the mitochondrial intermembrane space into the cellular cytoplasm."
-    },
-    {
-        subject: "Pathology",
-        questionText: "On an autopsy evaluation of a brain infarcted region, which classic histological type of tissue necrosis is characteristically observed?",
-        options: ["Coagulative necrosis", "Liquefactive necrosis", "Caseous necrosis layout", "Fat saponification necrosis"],
-        correctAnswer: 1,
-        explanation: "Ischemic hypoxic incidents within the central nervous system trigger liquefactive necrosis due to autolytic enzymatic dissolution mechanics."
-    },
-    {
-        subject: "Pathology",
-        questionText: "The deposition of crystalline calcium salts inside dead, degenerated, or dying somatic body tissues while maintaining completely normal serum calcium concentrations describes:",
-        options: ["Metastatic calcification", "Dystrophic calcification", "Calcinosis circumscripta", "Ossification progression matrix"],
-        correctAnswer: 1,
-        explanation: "Dystrophic calcification occurs locally inside non-viable, necrotized structures despite completely normal systemic serum calcium indices."
-    },
-    {
-        subject: "Pathology",
-        questionText: "Which clinical subtype of vascular amyloidosis patterns is characterized by a primary systemic distribution profile composed of immunoglobulin light chain fibril structures?",
-        options: ["AA Amyloidosis", "AL Amyloidosis", "ATTR Amyloidosis", "Aβ2M Amyloidosis"],
-        correctAnswer: 1,
-        explanation: "AL amyloidosis tracks a plasma cell monoclonal proliferation state where structured immunoglobulin light chains unfold into beta-pleated sheets."
-    },
-    {
-        subject: "Pathology",
-        questionText: "During an acute localized bacterial infection, which molecular vascular adhesion glycoprotein family directly drives the rolling phase of leukocyte emigration?",
-        options: ["Integrins", "Selectins (E, P, and L-selectins)", "ICAM-1 immunoglobulin superfamily", "PECAM-1 transendothelial channels"],
-        correctAnswer: 1,
-        explanation: "Selectins interact dynamically with sialyl-Lewis X carbohydrate residues on leukocytes to produce the initial slow rolling deceleration profile."
-    },
-    {
-        subject: "Pathology",
-        questionText: "The presence of standard epithelioid histiocytes, Langhans multinucleated giant cells, and a surrounding cuff of lymphocytes on lung biopsy defines:",
-        options: ["Suppurative acute inflammation", "Granulomatous inflammation", "Fibrinous exudative cascade", "Serous interstitial infiltration"],
-        correctAnswer: 1,
-        explanation: "Granulomatous inflammation represents a distinct chronic activation pattern featuring a core group of activated, modified macrophages (epithelioid cells)."
-    },
-    {
-        subject: "Pathology",
-        questionText: "Which family of proto-oncogenes functions molecularly by acting as an internal membrane-associated GTP-binding protein switch device?",
-        options: ["MYC family", "RAS family", "HER2/neu lineage", "ABL tyrosine kinase complexes"],
-        correctAnswer: 1,
-        explanation: "The RAS oncogene family switches between an active GTP-bound signaling state and an inactive GDP-bound resting profile to coordinate transcription instructions."
-    },
-    {
-        subject: "Pathology",
-        questionText: "Which distinct neoplastic lesion shows the classical presentation of an expansive, concentric 'onion-skin' periosteal reaction layout on knee radiographic analysis?",
-        options: ["Osteosarcoma", "Ewing's sarcoma", "Chondrosarcoma", "Osteoid osteoma"],
-        correctAnswer: 1,
-        explanation: "Ewing's sarcoma is a highly malignant round-cell tumor that drives an aggressive reactive periosteal bone layout resembling concentric onion skins."
-    },
-    {
-        subject: "Pathology",
-        questionText: "A 45-year-old male presents with severe epigastric distress. Endoscopic tissue sample microscopy documents deep mucosal neutrophilic infiltration paired with dense reactive lymphoid follicle formation. What is the most likely pathogen?",
-        options: ["Helicobacter pylori", "Cytomegalovirus", "Salmonella enteritidis", "Cryptosporidium species"],
+        subject: "PSM & Biostatistics",
+        questionText: "Which public health framework strategy addresses non-modifiable risk factors before any pathological changes begin?",
+        options: ["Primordial prevention", "Primary prevention", "Secondary prevention screening", "Tertiary rehab balancing"],
         correctAnswer: 0,
-        explanation: "Helicobacter pylori induces a high-density active chronic type-B gastritis presentation, inducing prominent structural mucosal lymphoid aggregate formation."
+        explanation: "Primordial prevention blocks the development of risk factors by discouraging unhealthy social, economic, and cultural patterns."
     },
     {
-        subject: "Pathology",
-        questionText: "The presence of numerous classical Reed-Sternberg cells displaying a distinctive 'owl-eye' bi-nucleated morphology establishes a diagnosis of:",
-        options: ["Burkitt lymphoma", "Hodgkin lymphoma", "Follicular center lymphoma", "Diffuse large B-cell neoplasia"],
+        subject: "PSM & Biostatistics",
+        questionText: "What index tracks the nutritional status of children in a community by evaluating height-for-age metrics?",
+        options: ["Wasting scale", "Stunting index", "Kwashiorkor ratio", "Acute cachexia parameter"],
         correctAnswer: 1,
-        explanation: "Reed-Sternberg cells are neoplastic germinal center B-cells that serve as the mandatory pathognomonic marker for diagnosing Hodgkin lymphoma."
+        explanation: "Low height-for-age reflects chronic malnutrition, which registers as linear growth stunting within community groups."
     },
     {
-        subject: "Pathology",
-        questionText: "Which mechanical variant of vascular shock states is uniquely driven by a primary systemic failure to distribute output volume due to massive peripheral arteriolar vasodilation?",
-        options: ["Cardiogenic shock", "Anaphylactic shock", "Hypovolemic shock profile", "Obstructive tamponade shock"],
+        subject: "PSM & Biostatistics",
+        questionText: "The complete eradication of which disease marks the primary historical achievement of global vaccination initiatives?",
+        options: ["Poliomyelitis", "Smallpox", "Measles complex", "Neonatal Tetanus"],
         correctAnswer: 1,
-        explanation: "Anaphylactic and septic profiles trigger massive, systemic endothelial nitric oxide release, expanding cross-sectional vascular volume space drastically."
+        explanation: "Smallpox was officially declared eradicated worldwide by the WHO in 1980 following a targeted mass vaccination campaign."
     },
     {
-        subject: "Pathology",
-        questionText: "On a peripheral blood smear assessment from a patient experiencing severe acute microangiopathic hemolytic anemia, which erythrocyte shape is pathognomonic?",
-        options: ["Target cells (Codocytes)", "Schistocytes (Helmet cells)", "Spherocytes", "Teardrop cells (Dacryocytes)"],
+        subject: "PSM & Biostatistics",
+        questionText: "Which epidemiological study design serves as the optimal framework to evaluate rare disease outcomes?",
+        options: ["Prospective cohort design", "Retrospective Case-Control Study", "Randomized Controlled Trial", "Community crossover evaluation"],
         correctAnswer: 1,
-        explanation: "Schistocytes represent mechanical fragmentations produced when circulating erythrocytes get torn while passing across loose fibrin mesh strands inside microvessels."
+        explanation: "Case-control studies gather individuals who already have the disease and look back at exposures, making it ideal for tracking rare conditions."
     },
     {
-        subject: "Pathology",
-        questionText: "A 55-year-old chronic heavy smoker presents with an irregular, firm lung mass. Biopsy confirms sheets of polygonal cells containing dense intercellular bridges and focal pink keratin pearls. What is the diagnosis?",
-        options: ["Adenocarcinoma", "Squamous cell carcinoma", "Small cell neuroendocrine carcinoma", "Large cell anaplastic tracking"],
+        subject: "PSM & Biostatistics",
+        questionText: "What is the primary indicator utilized to evaluate the baseline health status and socio-economic development of a country?",
+        options: ["Crude Birth Rate", "Infant Mortality Rate (IMR)", "Maternal Morbidity Fraction", "Case Fatality Ratio"],
         correctAnswer: 1,
-        explanation: "The presence of intercellular bridges (desmosomes) paired with explicit cytoplasmic keratinization formatting defines differentiated squamous cell carcinomas."
+        explanation: "IMR serves as a highly sensitive indicator of a community's overall sanitation, living standards, and access to medical care."
     },
     {
-        subject: "Pharmacology",
-        questionText: "Which distinct antiviral agent operates molecularly by inhibiting viral neuraminidase enzymes to block the release of newly replicated influenza virions?",
-        options: ["Acyclovir", "Oseltamivir", "Ribavirin", "Ganciclovir"],
+        subject: "PSM & Biostatistics",
+        questionText: "The mathematical probability of a screening test correctly identifying individuals who truly do not have the target disease is defined as:",
+        options: ["Sensitivity", "Specificity", "Positive Predictive Value", "Negative Predictive Value"],
         correctAnswer: 1,
-        explanation: "Oseltamivir prevents neuraminidase from cleaving sialic acid targets, trapping freshly assembled influenza A and B virions inside the host cell membrane envelope."
+        explanation: "Specificity measures a test's ability to correctly rule out disease in healthy patients, yielding a true-negative result."
     },
     {
-        subject: "Pharmacology",
-        questionText: "The development of severe, irreversible gray baby syndrome following a neonatal infection is linked to toxicity from which antibiotic class?",
-        options: ["Gentamicin aminoglycosides", "Chloramphenicol", "Erythromycin macrolides", "Tetracycline complexes"],
-        correctAnswer: 1,
-        explanation: "Neonates lack sufficient levels of hepatic UDP-glucuronosyltransferase, leading to toxic chloramphenicol accumulation that poisons mitochondrial respiration grids."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "Which generation of cephalosporins does the highly active anti-pseudomonal beta-lactam agent Cefepime belong to?",
-        options: ["Second generation", "Third generation", "Fourth generation", "Fifth generation"],
+        subject: "PSM & Biostatistics",
+        questionText: "Which statistical measure reflects the most frequently occurring value within a numerical dataset?",
+        options: ["Arithmetic mean", "Median midpoint", "Mode", "Geometric range value"],
         correctAnswer: 2,
-        explanation: "Cefepime is classified as a fourth-generation cephalosporin, offering highly balanced Gram-positive coverage paired with exceptional resistance against Pseudomonas aeruginosa."
+        explanation: "The mode represents the peak frequency value that appears most often inside a data series."
     },
     {
-        subject: "Pharmacology",
-        questionText: "What is the molecular mechanism of action behind the broad-spectrum macrocyclic antibiotic Rifampicin?",
-        options: ["Inhibiting bacterial cell wall transpeptidase linking", "Binding to the 30S ribosomal subunit to alter reading frames", "Inhibiting bacterial DNA-dependent RNA polymerase enzyme fields", "Inhibiting topoisomerase II gyrase tracking complexes"],
+        subject: "PSM & Biostatistics",
+        questionText: "The difference between the highest value and the lowest value inside an observational data matrix describes the:",
+        options: ["Standard deviation boundaries", "Variance parameter", "Range", "Interquartile variance block"],
         correctAnswer: 2,
-        explanation: "Rifampicin binds with high affinity to the beta-subunit of bacterial RNA polymerase, structurally blocking the synthesis and elongation of nascent mRNA strands."
+        explanation: "The range is the simplest measure of dispersion, calculated by subtracting the minimum value from the maximum value."
     },
     {
-        subject: "Pharmacology",
-        questionText: "Which class of anti-hyperlipidemic therapeutics functions primarily by competitively blocking the intracellular enzyme HMG-CoA reductase?",
-        options: ["Fibric acid derivatives (Fibrates)", "Bile acid-binding resins", "Statins (Atorvastatin, Rosuvastatin)", "Cholesterol absorption inhibitors (Ezetimibe)"],
+        subject: "PSM & Biostatistics",
+        questionText: "Which type of statistical error is committed when a researcher rejects a true null hypothesis?",
+        options: ["Type I Error (Alpha error)", "Type II Error (Beta error)", "Sampling bias anomaly", "Systematic measurement variance"],
+        correctAnswer: 0,
+        explanation: "A Type I error occurs when a true null hypothesis is rejected, falsely claiming a significant difference when none exists."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "What is the primary objective of random allocation (randomization) within a clinical trial design?",
+        options: ["Eliminating downstream laboratory observer errors", "Ensuring equal distribution of known and unknown confounding variables", "Upregulating the target patient compliance ratios", "Maximizing the therapeutic dose tolerance parameters"],
+        correctAnswer: 1,
+        explanation: "Randomization breaks predictable assignments, ensuring that confounding variables are distributed equally across comparison groups."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which scale of measurement applies to parameters that lack internal numerical values, such as blood groups (A, B, AB, O)?",
+        options: ["Nominal scale", "Ordinal scale", "Interval scale grid", "Ratio metric framework"],
+        correctAnswer: 0,
+        explanation: "Nominal scales sort data into mutually exclusive qualitative categories that carry no rank or numerical value."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "The index calculated by dividing the total number of infant deaths under 28 days of age by total live births over a year is the:",
+        options: ["Infant Mortality Rate", "Neonatal Mortality Rate", "Post-neonatal Mortality Rate", "Perinatal Mortality Index"],
+        correctAnswer: 1,
+        explanation: "Deaths occurring within the first 28 days of life fall under neonatal statistics, whereas deaths from 28 days to 1 year are post-neonatal."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which term describes the number of new cases of a disease that develop within a specific population over a defined period?",
+        options: ["Prevalence", "Incidence", "Attack probability fraction", "Crude attack quotient"],
+        correctAnswer: 1,
+        explanation: "Incidence tracks the rate of new disease development, whereas prevalence reflects the total burden of existing cases at a single point in time."
+    },
+    {
+        subject: "PSM & Biostatistics",
+        questionText: "Which screening parameter increases when the background prevalence of a disease rises within a community?",
+        options: ["Sensitivity performance", "Specificity scale stability", "Positive Predictive Value (PPV)", "Negative Predictive Value (NPV)"],
         correctAnswer: 2,
-        explanation: "Statins act as direct structural analogs to HMG-CoA, blocking the rate-limiting conversion step into mevalonic acid during cholesterol biogenesis pathways."
+        explanation: "As a disease becomes more common in a population, a positive test result is statistically more likely to represent a true positive case, driving up the PPV."
     },
     {
-        subject: "Pharmacology",
-        questionText: "The development of a dry, persistent nocturnal cough during management for chronic hypertension is a common adverse effect associated with which drug class?",
-        options: ["Calcium channel blockers", "Angiotensin-Converting Enzyme (ACE) Inhibitors", "Beta-adrenergic receptor blockers", "Thiazide loop diuretic agents"],
+        subject: "PSM & Biostatistics",
+        questionText: "The standard error of the mean (SEM) is mathematically calculated by dividing the standard deviation by what value?",
+        options: ["The total population size N", "The square root of the sample size n (√n)", "The absolute dataset range variance", "The degrees of freedom minus 1"],
         correctAnswer: 1,
-        explanation: "ACE inhibitors halt the regular enzymatic degradation of bradykinin and Substance P within pulmonary tissues, leading to localized pro-inflammatory sensory irritation."
+        explanation: "SEM equals the standard deviation ($\\\\sigma$) divided by $\\\\sqrt{n}$, reflecting how much the sample mean varies from the true population mean."
     },
     {
-        subject: "Pharmacology",
-        questionText: "Which highly effective loop diuretic handles volume overloads by blocking the operational pathways of the Na+/K+/2Cl- co-transporter system?",
-        options: ["Hydrochlorothiazide", "Furosemide", "Spironolactone", "Acetazolamide carbonic inhibitors"],
-        correctAnswer: 1,
-        explanation: "Furosemide binds directly into the chloride-binding slots of the luminal symporter located inside the thick ascending limb of the loop of Henle."
+        subject: "PSM & Biostatistics",
+        questionText: "Which chart is used to visually display the correlation and relationship between two continuous numerical variables?",
+        options: ["Bar chart columns", "Pie chart slices", "Scatter diagram (Scatter plot)", "Histogram block charts"],
+        correctAnswer: 2,
+        explanation: "Scatter plots map individual coordinate pairs across X and Y axes to reveal trends, patterns, or correlations between two variables."
     },
     {
-        subject: "Pharmacology",
-        questionText: "What is the primary operational mechanism behind the anti-anginal properties of sublingual Nitroglycerin?",
-        options: ["Direct blockade of voltage-gated calcium entry channels", "Activation of soluble guanylyl cyclase, increasing intracellular cGMP levels", "Competitive blockade of beta-1 cardiac receptors", "Direct opening of ATP-sensitive potassium channels"],
+        subject: "PSM & Biostatistics",
+        questionText: "What type of distribution configuration is defined by a shape where the tail extends significantly further toward the right side of the chart axis?",
+        options: ["Perfect symmetrical bell distribution", "Positively skewed distribution", "Negatively skewed distribution", "Bimodal double peak layout"],
         correctAnswer: 1,
-        explanation: "Nitroglycerin releases free nitric oxide gas, which upregulates cyclic GMP configurations to dephosphorylate myosin light chains, inducing profound venodilation."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "Which unique biguanide oral hypoglycemic agent functions primarily by activating intracellular AMP-activated protein kinase (AMPK)?",
-        options: ["Glimepiride", "Metformin", "Pioglitazone", "Sitagliptin"],
-        correctAnswer: 1,
-        explanation: "Metformin's activation of hepatic AMPK suppresses baseline mitochondrial gluconeogenesis, downregulating hepatic glucose outputs while enhancing peripheral tissue insulin sensitivity."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "The development of severe, acute hemorrhagic cystitis during an oncology regimen using Cyclophosphamide is prevented by co-administering:",
-        options: ["Leucovorin calcium", "Mesna", "Allopurinol xanthine blocks", "Amifostine solutions"],
-        correctAnswer: 1,
-        explanation: "Mesna features highly reactive thiol groups that chemically neutralize acrolein, the toxic electrophilic urothelial metabolite shed by cyclophosphamide actions."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "Which rapid-acting anticoagulant acts molecularly by accelerating the natural inhibitory activity of Antithrombin III against Thrombin and Factor Xa?",
-        options: ["Warfarin coumarin options", "Unfractionated Heparin", "Dabigatran etexilate", "Rivaroxaban formulas"],
-        correctAnswer: 1,
-        explanation: "Heparin features a specialized pentasaccharide sequence that induces an immediate conformational change in antithrombin, accelerating its target protease clearings by 1000-fold."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "What is the molecular mechanism behind the atypical antipsychotic agent Clozapine?",
-        options: ["Pure, potent selective dopamine D2 receptor blockade", "Combined serotonin 5-HT2A and dopamine D4/D2 receptor antagonism", "Selective serotonin reuptake inhibition (SSRI) loops", "Monoamine oxidase type B enzyme inhibition"],
-        correctAnswer: 1,
-        explanation: "Clozapine exhibits a highly balanced multi-receptor binding layout, showing a high affinity for serotonin 5-HT2A networks relative to transient dopamine D2 receptors."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "Which potent inhalation anesthetic matrix is characteristically linked to a risk of triggering malignant hyperthermia in genetically susceptible individuals?",
-        options: ["Nitrous oxide gas", "Halothane", "Propofol emulsion profiles", "Ketamine dissociative arrays"],
-        correctAnswer: 1,
-        explanation: "Halothane can trigger uncontrolled, continuous calcium release from altered skeletal muscle ryanodine RYR1 receptors, driving severe hypermetabolic contractions."
-    },
-    {
-        subject: "Pharmacology",
-        questionText: "The selective competitive blockade of H1 histamine receptors to treat allergic rhino-conjunctivitis without causing central sedation is achieved by using:",
-        options: ["Diphenhydramine formulas", "Cetirizine", "Promethazine autonomic mixtures", "Hydroxyzine hydrochloride lines"],
-        correctAnswer: 1,
-        explanation: "Second-generation agents like cetirizine contain polar carboxyl modifications that prevent them from crossing the blood-brain barrier."
+        explanation: "In a positively skewed distribution, a cluster of high-value outliers pulls the tail and the mean toward the right side of the chart."
     }
 ];
 
@@ -1008,10 +1849,11 @@ let isAnswered = false;
 function setFocus(focusType) {
     currentFocus = focusType;
     document.querySelectorAll('.focus-btn').forEach(btn => {
-        btn.classList.remove('border-blue-600', 'bg-blue-50', 'text-blue-700');
-        btn.classList.add('border-gray-200', 'text-gray-700');
+        btn.className = "focus-btn py-3 px-4 rounded-xl border-2 text-sm font-semibold border-gray-200 hover:border-gray-300 text-gray-700";
     });
-    document.getElementById(`focus-${focusType}`).classList.add('border-blue-600', 'bg-blue-50', 'text-blue-700');
+    // Visual selector matching fix
+    let activeId = focusType === "PSM & Biostatistics" ? "focus-PSM-Biostatistics" : `focus-${focusType}`;
+    document.getElementById(activeId).className = "focus-btn py-3 px-4 rounded-xl border-2 text-sm font-bold border-blue-600 bg-blue-50 text-blue-700";
 }
 
 function setSize(sizeVal) {
@@ -1023,7 +1865,7 @@ function setSize(sizeVal) {
     document.getElementById(`size-${sizeVal}`).classList.add('border-blue-600', 'bg-blue-50', 'text-blue-700');
 }
 
-// THE SHUFFLING ENGINE - CORRECTED FOR TRUE DYNAMIC MAX SCALING
+// THE SHUFFLING ENGINE
 function startExam() {
     let filteredList = questionDatabase;
     if (currentFocus !== "All") {
@@ -1035,14 +1877,12 @@ function startExam() {
         return;
     }
 
-    // 1. Perform authentic random Fisher-Yates shuffle array routine
     let pool = [...filteredList];
     for (let i = pool.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [pool[i], pool[j]] = [pool[j], pool[i]];
     }
 
-    // 2. Clear size boundary limitations: If 'Max', use absolute length of the pool dynamically
     let targetSize;
     if (currentSize === "Max") {
         targetSize = pool.length;
@@ -1052,7 +1892,6 @@ function startExam() {
     
     activeExamSheet = pool.slice(0, targetSize);
 
-    // Reset runtime counters
     currentIndex = 0;
     score = 0;
     
